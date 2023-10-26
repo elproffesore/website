@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Sans:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+    <title>Portfolio</title>
+</head>
+
+<body onload="converter('./sites/mapping-perspectives.md')">
+    <div class="menu">
+        <h2>Portfolio</h2>
+        <button onclick="converter('./sites/mapping-perspectives.md')">Mapping Perspectives</button>
+        <button onclick="converter('./sites/dialectics-of-climate-futures.md')">Dialectics of Climate Futures</button>
+        <button onclick="converter('./sites/public-path.md')">Public Path</button>
+        <button onclick="converter('./sites/slime-mold-study.md')">Slime Mold Study</button>
+        <hr>
+        <button onclick="converter('./sites/about.md')">About</button>
+        <button onclick="converter('./sites/impressum.md')">Impressum</button>
+
+    </div>
+    <div class="l1-container">
+        <div id="l2-container-1" class="l2-container"></div>
+        <div id="l2-container-2" class="l2-container">
+        </div>
+        <div id="l2-container-3" class="l2-container"></div>
+    </div>
+    <script>
+        function converter(site) {
+            fetch(site)
+                .then(d => d.text())
+                .then(text => {
+                    let converter = new showdown.Converter()
+                    let html = converter.makeHtml(text)
+                    document.getElementById("l2-container-2").innerHTML = html
+                })
+        }
+        ;</script>
+</body>
+
+</html>

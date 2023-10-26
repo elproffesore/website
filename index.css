@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+}
+/* Menu */
+.menu{
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    color: black;
+}
+.menu-points{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.menu button{
+    border: none;
+    background-color: white;
+    text-align: left;
+}
+.menu a{
+    text-decoration: none;   
+    color: black; 
+}
+.menu button:hover,a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* Content Container */
+.l1-container{
+    display: grid;
+    grid-template-columns: 25% 50% 25%; 
+}
+.l2-container{
+    text-align: justify;
+}
+.l2-container h1,h2{
+   text-align: left;
+}
+.l2-container h1,h2,p{
+    font-weight: 400;
+}
+.l2-container img,video{
+    width: 100%;
+}
+.l2-container hr {
+    width: 30%;
+}
+#l2-container-2 > p{
+    display: flex;
+}
+#l2-container-2 > p > img{
+    height: 25em;
+    width: auto;
+    margin: auto;
+}
+#l2-container-2 > p > video{
+    height: 15em;
+    width: auto;
+    margin: auto;
+}
