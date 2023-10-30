@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    margin-bottom: 5%;
     font-family: 'EB Garamond', serif;
     font-weight: 400;
 }
@@ -44,22 +45,21 @@ body{
 .l2-container h1,h2,p{
     font-weight: 400;
 }
-.l2-container img,video{
-    width: 100%;
-}
 .l2-container hr {
     width: 30%;
 }
-#l2-container-2 > p{
-    display: flex;
+#l2-container-2 .img-wrapper{
+    display: flex !important;
 }
-#l2-container-2 > p > img{
-    height: 25em;
-    width: auto;
+#l2-container-2 .img-wrapper img,video{
+    height: 20em;
     margin: auto;
+    width: auto;
 }
-#l2-container-2 > p > video{
-    height: 15em;
-    width: auto;
-    margin: auto;
+
+
+
+/* Arbitrary */
+.swiper-button-next, .swiper-button-prev{
+    color: rgb(12,12,234) !important;
 }

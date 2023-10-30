@@ -11,20 +11,21 @@
         rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <title>Portfolio</title>
 </head>
 
-<body onload="converter('./sites/mapping-perspectives.md')">
+<body>
     <div class="menu">
         <h2>Portfolio</h2>
-        <button onclick="converter('./sites/mapping-perspectives.md')">Mapping Perspectives</button>
-        <button onclick="converter('./sites/dialectics-of-climate-futures.md')">Dialectics of Climate Futures</button>
-        <button onclick="converter('./sites/public-path.md')">Public Path</button>
-        <button onclick="converter('./sites/slime-mold-study.md')">Slime Mold Study</button>
+        <a href="/mapping-perspectives.html">Mapping Perspectives</a>
+        <a href="/dialectics-of-climate-futures.html">Dialectics of Climate Futures</a>
+        <a href="/public-path.html">Public Path</a>
+        <a href="/slime-mold-study.html">Slime Mold Study</a>
         <hr>
-        <button onclick="converter('./sites/about.md')">About</button>
-        <button onclick="converter('./sites/impressum.md')">Impressum</button>
-
+        <a href="/about.html">About</a>
+        <a href="/impressum.html">Impressum</a>
     </div>
     <div class="l1-container">
         <div id="l2-container-1" class="l2-container"></div>
@@ -33,16 +34,17 @@
         <div id="l2-container-3" class="l2-container"></div>
     </div>
     <script>
-        function converter(site) {
-            fetch(site)
-                .then(d => d.text())
-                .then(text => {
-                    let converter = new showdown.Converter()
-                    let html = converter.makeHtml(text)
-                    document.getElementById("l2-container-2").innerHTML = html
-                })
-        }
-        ;</script>
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+</script>
 </body>
 
 </html>
