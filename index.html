@@ -13,12 +13,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/index.js"></script>
     <title>Portfolio</title>
 </head>
 
 <body>
     <div class="menu">
-        <h2>Portfolio</h2>
+        <a href="/"><h2>Philipp Proff</h2></a>
         <a href="/mapping-perspectives.html">Mapping Perspectives</a>
         <a href="/dialectics-of-climate-futures.html">Dialectics of Climate Futures</a>
         <a href="/public-path.html">Public Path</a>
@@ -26,18 +27,18 @@
         <hr>
         <a href="/impressum.html">Impressum</a>
     </div>
+    <div class="burger" id="burgerClose" onclick="closeMenu()">CLOSE</div>
+    <div class="burger" id="burgerOpen" onclick="showMenu()">MENU</div>
     <div class="l1-container">
         <div id="l2-container-1" class="l2-container"></div>
         <div id="l2-container-2" class="l2-container">
-            <h2>About</h2>
             <br>
             <br>
             <div class="img-wrapper">
-                <img class="cover" src="/media/me.jpg" alt="">
+                <img class="cover" src="/media/me.png" alt="">
             </div>
             <br>
             <br>
-            <hr>
             <p>
                 My name is Philipp and I study Design & Computation at Technische Universität Berlin and Universität der
                 Künste Berlin. Design & Computation is part of the new interdisciplinary research platform <a
