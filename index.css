@@ -3,6 +3,7 @@ body {
     margin-bottom: 5%;
     font-family: 'EB Garamond', serif;
     font-weight: 400;
+    font-size: 1.1em;
     overflow-x: hidden;
 }
 
@@ -86,6 +87,15 @@ video {
     height: 20em;
     margin: auto;
     width: auto;
+}
+.showcase{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.showcase img{
+    width: 100%;
 }
 /* Arbitrary */
 .swiper-button-next,
