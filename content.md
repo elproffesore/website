@@ -18,11 +18,11 @@ With the project "Dialectics of Climate Futures" we want to clarify these interw
 
 To this date the project was exhibited at the Manifest:IO Symposium for Electronic Art and New Media, the first event of the Symbiotism collective at Disko Babel and at the Ars Electronica 2023 Festival.
 <-images->
-<img src="/media/dialectics-of-climate-futures/bild-1.jpg"/>
-<img src="/media/dialectics-of-climate-futures/bild-2.jpg"/>
-<img src="/media/dialectics-of-climate-futures/bild-3.jpg"/>
-<img src="/media/dialectics-of-climate-futures/bild-4.jpg"/>
-<img src="/media/dialectics-of-climate-futures/bild-5.jpg"/>
+<img src="/media/dialectics-of-climate-futures/bild1.jpg"/>
+<img src="/media/dialectics-of-climate-futures/bild2.jpg"/>
+<img src="/media/dialectics-of-climate-futures/bild3.jpg"/>
+<img src="/media/dialectics-of-climate-futures/bild4.jpg"/>
+<img src="/media/dialectics-of-climate-futures/bild5.jpg"/>
 ------
 # Public Path
 <div class="img-wrapper">
