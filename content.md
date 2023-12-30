@@ -3,7 +3,7 @@
 <hr>
 </div>
 
-My name is Philipp and I study Design & Computation at Technische Universität Berlin and Universität der Künste Berlin. Design & Computation is part of the new interdisciplinary research platform <a href="(https://www.newpractice.net/)">New Practice</a> which I’m also part of. I have a degree in Mediatechnologies from Hochschule der Medien, Stuttgart and I’m practically interested in data visualization and concept artwork about natural language processing.
+My name is Philipp, I have a degree in Mediatechnologies from Hochschule der Medien, Stuttgart and currentyl study Design & Computation at Technische Universität Berlin and Universität der Künste Berlin. Design & Computation is part of the new interdisciplinary research platform <a href="(https://www.newpractice.net/)">New Practice</a> which I’m also part of. I’m practically interested in data visualization and concept artwork about media theory.
 
 Through my studies I artistically research topics that investigate the impacts and weird things of technology. 
 
