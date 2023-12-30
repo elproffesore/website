@@ -5,7 +5,7 @@
 
 My name is Philipp and I study Design & Computation at Technische Universität Berlin and Universität der Künste Berlin. Design & Computation is part of the new interdisciplinary research platform <a href="(https://www.newpractice.net/)">New Practice</a> which I’m also part of. I have a degree in Mediatechnologies from Hochschule der Medien, Stuttgart and I’m practically interested in data visualization and concept artwork about natural language processing.
 
-Through my studies I artistically research topics such as generative AI, algorithmic bio mimicry and natural language. The work that I do is influenced by different figures like Bruno Latour, Timothy Morten, Douglas R. Hofstadter and the philosophical movement of New Materialism. The interconnectedness in nature and often dialectical behaviour of science drives me to explore more relevant explanations of this complex thing we call "world".
+Through my studies I artistically research topics that investigate the impacts and weird things of technology. 
 
 ------
 # Dialectics of Climate Futures
@@ -31,7 +31,7 @@ To this date the project was exhibited at the Manifest:IO Symposium for Electron
 <hr>
 
 </div>
-“Public Path“ startet with a solo project called "Coming Home". Through different iterations I played with the shape that appeared by mapping my way between leaving and coming back home. The path was shaped by chores and spontanous actions. Distances from home were measured and mapped over time on a polar visualization. Each of the days tracked acted as a fingerprint. The patterns provided possible analysis of individuals and their implicit information about the transportation, occupation and vaguely social situation. The project also offered a new kind of mapping of the city through the subjective movement of the individuals. A body in space, the movement curve shaped by the environment. The project group experimented with different mapping techniques and developed different prototypes, each referring to the circular aspect of the paths throughout a day. Through 3D scanning, game engines and geospatial mapping techniques we developed a digital space in which we tried new mapping approaches of public space by entangling quantitative and qualitative data.
+“Public Path“ startet with a solo project called "Coming Home". The path was shaped by chores and spontanous actions. Distances from home were measured and mapped over time on a polar visualization. Each of the days tracked acted as a fingerprint. The patterns provided possible analysis of individuals and their implicit information about the transportation, occupation and vaguely social situation. The project also offered a new kind of mapping of the city through the subjective movement of the individuals. A body in space, the movement curve shaped by the environment. The project group experimented with different mapping techniques and developed different prototypes, each referring to the circular aspect of the paths throughout a day. Through 3D scanning, game engines and geospatial mapping techniques we developed a digital space in which we tried new mapping approaches of public space by entangling quantitative and qualitative data.
 <-images->
 <video src="/media/public-path/video-1.mov" autoplay loop muted></video>
 ------
