@@ -13,12 +13,11 @@ Notetaking is integral to studying, brainstorming and archiving ideas that come 
 ------
 # Media and Landscape
 [University Project] [2024]
-<div class="img-wrapper"><img src="/media/media-and-landscape/poster.jpg"/></div>
 
 WIP
 
 <-images->
-<img src="/media/media-and-landscape/collage.jpg"/>
+<img src="/media/media-and-landscape/poster.jpg"/>
 
 ------
 # Explorative Syllabus Site
