@@ -25,7 +25,7 @@ It is in use for FH Potsdams class ["Decolonizing Data Visualization – Visuali
 # Workshop "AI and Art"
 [Work] [2023]
 
-I gave a small workshop that showcased the possibilities of AI in the context of art with empathis on healthcare. The workshop was held for the "Diagnostics" department of the company Roche and was part of their "DEGL+K Sommertagung". During the workshop teams discussed about the future of healthcare and the role of AI. The discussion was recorded and later summarized by an AI. The AI also created images that metaphorically depicted the discussion and acted that as a starting point for another discussion.
+I gave a small workshop that showcased the possibilities of AI in the context of art and partly in the context of healthcare. The workshop was held for the "Diagnostics" department of the company Roche and was part of their "DEGL+K Sommertagung". During the workshop teams discussed about the future of healthcare and the role of AI. The discussion was recorded and later summarized by an AI. The AI also created images that metaphorically depicted the discussion and acted that as a starting point for another discussion.
 
 <-images-> 
 <img src="/media/roche-workshop/bild1.jpeg"/>
