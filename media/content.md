@@ -1,15 +1,23 @@
 # Portfolio
-<div class="img-wrapper"><img class="cover" src="/media/me.png" alt=""/>
-</div>
+<div class="img-wrapper"><img class="cover" src="/media/me.png" alt=""/></div>
 
-My name is Philipp and I currently study Design & Computation at Technische Universität Berlin and Universität der Künste Berlin. I’m practically interested in data and media visualization, interfaces and media theory. Through my studies, porject and work I try to entangle the weird parts of technology and try to keep afloat on this huge information ocean. 
+My name is Philipp and I currently study [Design & Computation](https://www.newpractice.net/study) at Technische Universität Berlin and Universität der Künste Berlin. I’m practically interested in data and media visualization, interfaces and media theory. Through my studies, porject and work I try to entangle the weird parts of technology and try to keep afloat on this huge information ocean. 
 
 ------
 # Notespace 
 [2024]
-<div class="img-wrapper"><img class="cover" src="/media/notespace/bild-cover.png" alt=""/>
+<div class="img-wrapper"><img class="cover" src="/media/notespace/bild-cover.png" alt=""/></div>
+
 Notetaking is integral to studying, brainstorming and archiving ideas that come to mind. Usually I use a small notebook to write and sketch down my ideas for projects or theoretical thinking. But there are several things that my analogous notebook doesn't provide. While brainstorming I often try to sketch my ideas and associate it with already familiar projects or other artists/designers. The sketching part is easier with the notebook but the references and associations are more usefull in a hyperlink system. I was unhappy with the solutions that are out there because they offered too many features and I couldn't integrate some features I wanted from other tools. Another really important part was the idea that I could rearrange the visualisation of my notes and also could integrate some search and analytical functions later. So the first main goal was to create a simple infrastructure that would allow me to take notes with various media input and store it. This would be the underlying layer where I could later experiment with different visualisations.
 ------
+# Explorative Syllabus Site
+[2023]
+<div class="img-wrapper"><img class="cover" src="/media/syllabus-site/bild-cover.png" alt=""/></div>
+
+This project was done together with [Prof.Marian Dörk](https://mariandoerk.de/) from the [UCLAB](https://uclab.fh-potsdam.de/). The aim of the project was to create a new kind of syllabus site that would allow the students to explore the content of the class in a more playful way. The syllabus site is a website that contains all the information about the class. It is usually structured in a linear way and is not very flexible. This new structure also provides the opportunity for non-programmers to fill in their code in a markdown file and the site would automatically generate the visualisation. The visualisation is based on a graph structure that is generated from the markdown file.   The visualisation is also responsive and can be used on mobile devices.
+
+It is in use for FH Potsdams class ["Decolonizing Data Visualization – Visualizing Postcolonies"](https://uclab-potsdam.github.io/decolonizing/) and for the class ["Organigrams for/from the future"](https://uclab-potsdam.github.io/syllabus-site/)
+
 # Dialectics of Climate Futures 
 [2023]
 <div class="img-wrapper"><img class="cover" src="/media/dialectics-of-climate-futures/bild-cover.jpeg" alt=""/>
@@ -30,10 +38,8 @@ To this date the project was exhibited at the Manifest:IO Symposium for Electron
 ------
 # Public Path
 [2023]
-<div class="img-wrapper">
-<img class="cover" src="/media/public-path/bild-cover.png" alt=""/>
+<div class="img-wrapper"><img class="cover" src="/media/public-path/bild-cover.png" alt=""/></div>
 
-</div>
 “Public Path“ startet with a solo project called "Coming Home". The path was shaped by chores and spontanous actions. Distances from home were measured and mapped over time on a polar visualization. Each of the days tracked acted as a fingerprint. The patterns provided possible analysis of individuals and their implicit information about the transportation, occupation and vaguely social situation. The project also offered a new kind of mapping of the city through the subjective movement of the individuals. A body in space, the movement curve shaped by the environment. The project group experimented with different mapping techniques and developed different prototypes, each referring to the circular aspect of the paths throughout a day. Through 3D scanning, game engines and geospatial mapping techniques we developed a digital space in which we tried new mapping approaches of public space by entangling quantitative and qualitative data.
 <-images->
 <video src="/media/public-path/video-1.mov" autoplay loop muted></video>       
