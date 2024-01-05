@@ -9,6 +9,7 @@ My name is Philipp and I currently study [Design & Computation](https://www.newp
 <div class="img-wrapper"><img class="cover" src="/media/notespace/bild-cover.png" alt=""/></div>
 
 Notetaking is integral to studying, brainstorming and archiving ideas that come to mind. Usually I use a small notebook to write and sketch down my ideas for projects or theoretical thinking. But there are several things that my analogous notebook doesn't provide. While brainstorming I often try to sketch my ideas and associate it with already familiar projects or other artists/designers. The sketching part is easier with the notebook but the references and associations are more usefull in a hyperlink system. I was unhappy with the solutions that are out there because they offered too many features and I couldn't integrate some features I wanted from other tools. Another really important part was the idea that I could rearrange the visualisation of my notes and also could integrate some search and analytical functions later. 
+
 ------
 # Explorative Syllabus Site
 [2023]
@@ -20,6 +21,7 @@ The code is [open source](https://github.com/uclab-potsdam/syllabus-site/)
 
 It is in use for FH Potsdams class ["Decolonizing Data Visualization – Visualizing Postcolonies"](https://uclab-potsdam.github.io/decolonizing/) and for the class ["Organigrams for/from the future"](https://uclab-potsdam.github.io/syllabus-site/)
 
+------
 # Dialectics of Climate Futures 
 [2023]
 <div class="img-wrapper"><img class="cover" src="/media/dialectics-of-climate-futures/bild-cover.jpeg" alt=""/>
