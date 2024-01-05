@@ -1,0 +1,39 @@
+# Portfolio
+<div class="img-wrapper"><img class="cover" src="/media/me.png" alt=""/>
+</div>
+
+My name is Philipp and I currently study Design & Computation at Technische Universität Berlin and Universität der Künste Berlin. I’m practically interested in data and media visualization, interfaces and media theory. Through my studies, porject and work I try to entangle the weird parts of technology and try to keep afloat on this huge information ocean. 
+
+------
+# Notespace 
+[2024]
+<div class="img-wrapper"><img class="cover" src="/media/notespace/bild-cover.png" alt=""/>
+Notetaking is integral to studying, brainstorming and archiving ideas that come to mind. Usually I use a small notebook to write and sketch down my ideas for projects or theoretical thinking. But there are several things that my analogous notebook doesn't provide. While brainstorming I often try to sketch my ideas and associate it with already familiar projects or other artists/designers. The sketching part is easier with the notebook but the references and associations are more usefull in a hyperlink system. I was unhappy with the solutions that are out there because they offered too many features and I couldn't integrate some features I wanted from other tools. Another really important part was the idea that I could rearrange the visualisation of my notes and also could integrate some search and analytical functions later. So the first main goal was to create a simple infrastructure that would allow me to take notes with various media input and store it. This would be the underlying layer where I could later experiment with different visualisations.
+------
+# Dialectics of Climate Futures 
+[2023]
+<div class="img-wrapper"><img class="cover" src="/media/dialectics-of-climate-futures/bild-cover.jpeg" alt=""/>
+</div>
+
+Anthropogenic climate change is more relevant than ever. Despite the scientific evidence that has been gathered and substantiated in recent decades, social fronts are sharpening and polarizing. Thus, we find that the discussion about the climate crisis must not only be approached from the quantitative side, but also from the qualitative, emotional side. In addition to dealing with the topic using the conventional methods of economics and the natural sciences, the art and design disciplines must also assume their responsibility. In this context, the development of narratives and visions, as well as the presentation of complex the representation of complex interrelationships are of central importance. Through dialectics - the method of gaining knowledge through logical argumentation along opposing positions - we want to get out of our usual filter bubbles.
+
+With the project "Dialectics of Climate Futures" we want to clarify these interwoven relationships and initiate a discourse. We use an emotional framed artificial intelligence as a means to get in touch with opposing emotional states. Through the process of the interaction we hope to break out of our thought patterns and constructively confront possibly uncomfortable emotional counterparts. At the end the goal is the ask and discuss the question “can we find common ground?”.
+
+To this date the project was exhibited at the Manifest:IO Symposium for Electronic Art and New Media, the first event of the Symbiotism collective at Disko Babel and at the Ars Electronica 2023 Festival.
+
+<-images->
+<img src="/media/dialectics-of-climate-futures/bild1.jpg"/>
+<img src="/media/dialectics-of-climate-futures/bild2.jpg"/>
+<img src="/media/dialectics-of-climate-futures/bild3.jpg"/>
+<img src="/media/dialectics-of-climate-futures/bild4.jpg"/>
+<img src="/media/dialectics-of-climate-futures/bild5.jpg"/>
+------
+# Public Path
+[2023]
+<div class="img-wrapper">
+<img class="cover" src="/media/public-path/bild-cover.png" alt=""/>
+
+</div>
+“Public Path“ startet with a solo project called "Coming Home". The path was shaped by chores and spontanous actions. Distances from home were measured and mapped over time on a polar visualization. Each of the days tracked acted as a fingerprint. The patterns provided possible analysis of individuals and their implicit information about the transportation, occupation and vaguely social situation. The project also offered a new kind of mapping of the city through the subjective movement of the individuals. A body in space, the movement curve shaped by the environment. The project group experimented with different mapping techniques and developed different prototypes, each referring to the circular aspect of the paths throughout a day. Through 3D scanning, game engines and geospatial mapping techniques we developed a digital space in which we tried new mapping approaches of public space by entangling quantitative and qualitative data.
+<-images->
+<video src="/media/public-path/video-1.mov" autoplay loop muted></video>       
