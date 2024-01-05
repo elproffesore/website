@@ -20,6 +20,7 @@ WIP
 <-images->
 <img src="/media/media-and-landscape/collage.jpg"/>
 
+------
 # Explorative Syllabus Site
 [Work] [2023]
 <div class="img-wrapper"><img class="cover" src="/media/syllabus-site/bild-cover.png" alt=""/></div>
