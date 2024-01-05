@@ -31,7 +31,8 @@ I gave a small workshop that showcased the possibilities of AI in the context of
 <img src="/media/roche-workshop/bild1.jpeg"/>
 <img src="/media/roche-workshop/bild2.jpeg"/>
 <img src="/media/roche-workshop/bild3.jpeg"/>
------
+
+------
 # Dialectics of Climate Futures 
 [University Project] [2023]
 <div class="img-wrapper"><img class="cover" src="/media/dialectics-of-climate-futures/bild-cover.jpeg" alt=""/>
