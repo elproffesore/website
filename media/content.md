@@ -24,7 +24,7 @@ WIP
 [Work] [2023]
 <div class="img-wrapper"><img class="cover" src="/media/syllabus-site/bild-cover.png" alt=""/></div>
 
-This project was done together with [Prof. Marian Dörk](https://mariandoerk.de/) from the [UCLAB](https://uclab.fh-potsdam.de/). The syllabus site is a website that contains all the information about the class. It is usually structured in a linear way and is not very flexible. The aim this project was to create a new kind of syllabus site that would allow the students to explore the content of the class in a more playful way. It also allows students to see the process and prototypes from a past class.  The developed structure of the syllabus site also provides the opportunity for non-programmers to fill in their content in a markdown file and the site automatically generates the visualisation. The visualisation is also responsive and can be used on mobile devices.
+This project was done together with [Prof. Marian Dörk](https://mariandoerk.de/) from the [UCLAB](https://uclab.fh-potsdam.de/). A syllabus site is a website that contains all the information about a class. It is usually structured in a linear way and is not very flexible. The aim of this project was to create a new kind of syllabus site that would allow the students to explore the content of the class in a more playful way. It also allows students to see the process and prototypes from a past class. The structure of the project also provides the opportunity for non-programmers to create their own syllabus sites with a markdown file and the application automatically generates the visualisation. The visualisation is also responsive and can be used on mobile devices.
 
 The code is [open source](https://github.com/uclab-potsdam/syllabus-site/)
 
