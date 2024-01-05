@@ -5,14 +5,14 @@ My name is Philipp and I currently study [Design & Computation](https://www.newp
 
 ------
 # Notespace 
-[2024]
+[Personal Project] [2024]
 <div class="img-wrapper"><img class="cover" src="/media/notespace/bild-cover.png" alt=""/></div>
 
 Notetaking is integral to studying, brainstorming and archiving ideas that come to mind. Usually I use a small notebook to write and sketch down my ideas for projects or theoretical thinking. But there are several things that my analogous notebook doesn't provide. While brainstorming I often try to sketch my ideas and associate it with already familiar projects or other artists/designers. The sketching part is easier with the notebook but the references and associations are more usefull in a hyperlink system. I was unhappy with the solutions that are out there because they offered too many features and I couldn't integrate some features I wanted from other tools. Another really important part was the idea that I could rearrange the visualisation of my notes and also could integrate some search and analytical functions later. 
 
 ------
 # Explorative Syllabus Site
-[2023]
+[Work] [2023]
 <div class="img-wrapper"><img class="cover" src="/media/syllabus-site/bild-cover.png" alt=""/></div>
 
 This project was done together with [Prof. Marian Dörk](https://mariandoerk.de/) from the [UCLAB](https://uclab.fh-potsdam.de/). The syllabus site is a website that contains all the information about the class. It is usually structured in a linear way and is not very flexible. The aim this project was to create a new kind of syllabus site that would allow the students to explore the content of the class in a more playful way. It also allows students to see the process and prototypes from a past class.  The developed structure of the syllabus site also provides the opportunity for non-programmers to fill in their content in a markdown file and the site automatically generates the visualisation. The visualisation is also responsive and can be used on mobile devices.
@@ -23,7 +23,7 @@ It is in use for FH Potsdams class ["Decolonizing Data Visualization – Visuali
 
 ------
 # Dialectics of Climate Futures 
-[2023]
+[University Project] [2023]
 <div class="img-wrapper"><img class="cover" src="/media/dialectics-of-climate-futures/bild-cover.jpeg" alt=""/>
 </div>
 
@@ -41,7 +41,7 @@ To this date the project was exhibited at the Manifest:IO Symposium for Electron
 <img src="/media/dialectics-of-climate-futures/bild5.jpg"/>
 ------
 # Public Path
-[2023]
+[University Project] [2023]
 <div class="img-wrapper"><img class="cover" src="/media/public-path/bild-cover.png" alt=""/></div>
 
 “Public Path“ startet with a solo project called "Coming Home". The path was shaped by chores and spontanous actions. Distances from home were measured and mapped over time on a polar visualization. Each of the days tracked acted as a fingerprint. The patterns provided possible analysis of individuals and their implicit information about the transportation, occupation and vaguely social situation. The project also offered a new kind of mapping of the city through the subjective movement of the individuals. A body in space, the movement curve shaped by the environment. The project group experimented with different mapping techniques and developed different prototypes, each referring to the circular aspect of the paths throughout a day. Through 3D scanning, game engines and geospatial mapping techniques we developed a digital space in which we tried new mapping approaches of public space by entangling quantitative and qualitative data.
