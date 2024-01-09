@@ -1,7 +1,7 @@
 # Portfolio
 <div class="img-wrapper"><img class="cover" src="/media/me.png" alt=""/></div>
 
-My name is Philipp and I currently study [Design & Computation](https://www.newpractice.net/study) at Technische Universität Berlin and Universität der Künste Berlin. I’m practically interested in data and media visualization, interfaces and media theory. Through my studies, porjects and work I try to entangle the weird parts of technology and try to keep afloat on this huge information ocean. 
+My name is Philipp and I’m currently studying [Design & Computation](https://www.newpractice.net/study) at Technische Universität Berlin and Universität der Künste Berlin. I’m interested in data and media visualization, interfaces and media theory. Through my studies, projects and work I aim at entangling the weird parts of technology and want to keep afloat on this huge ocean of information. 
 
 ------
 # Notespace 
