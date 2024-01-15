@@ -11,15 +11,6 @@ My name is Philipp and I’m currently studying [Design & Computation](https://w
 Notetaking is integral to studying, brainstorming and archiving ideas that come to mind. Usually I use a small notebook to write and sketch down my ideas for projects or theoretical thinking. But there are several things that my analogous notebook doesn't provide. While brainstorming I often try to sketch my ideas and associate it with already familiar projects or other artists/designers. The sketching part is easier with the notebook but the references and associations are more usefull in a hyperlink system. I was unhappy with the solutions that are out there because they offered too many features and I couldn't integrate some features I wanted from other tools. Another really important part was the idea that I could rearrange the visualisation of my notes and also could integrate some search and analytical functions later. 
 
 ------
-# Media and Landscape
-[University Project] [2024]
-
-WIP
-
-<-images->
-<img src="/media/media-and-landscape/poster.jpg"/>
-
-------
 # Explorative Syllabus Site
 [Work] [2023]
 <div class="img-wrapper"><img class="cover" src="/media/syllabus-site/bild-cover.png" alt=""/></div>
