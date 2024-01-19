@@ -1,25 +1,32 @@
 /* CSS */
 :root {
-    font-family: Inter, sans-serif;
-    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
-}
-  @supports (font-variation-settings: normal) {
-    :root { font-family: InterVariable, sans-serif; }
+    font-family: 'Merriweather', serif;
+    --color: #000;
+    --second: rgb(0, 0, 0,0.6);
+    --accent: #2144F5
+
 }
 html, body{
     scroll-behavior: smooth;
 }
+p,a,h1,h2,h3,h4,h5,h6{
+    margin-top: 0;
+    padding-top: 0;
+}
 body {
+    position: relative;
     margin: 0;
-    margin-bottom: 5%;
+    margin-bottom: 1em;
     font-weight: 400;
     font-size: 0.9em;
     overflow-x: hidden;
     display: grid;
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 25% 75%;
+    height: 100%;
 }
 
 #menu {
+    font-family: Inter, sans-serif;
     position: fixed;
     left: 0;
     top: 0;
@@ -41,14 +48,9 @@ body {
     border: none;
 }
 
-#menu a {
+a {
     text-decoration: none;
-    color: black;
-}
-#menu a:last-child {
-    position: absolute;
-    bottom: 0px;
-    margin-bottom: 4rem;
+    color: var(--color);
 }
 #menu button:hover,
 a:hover {
@@ -57,60 +59,43 @@ a:hover {
 
 /* Content Container */
 #impressum {
-    grid-column: 2;
-    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 #content{
-    grid-column: 2;
-    font-weight: 400;
     text-align: justify;
+    margin: 2rem 0rem;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-column: 2;
+    row-gap: 10vh;
 }
-#content>div{
+#content>div:nth-child(1)>.toggleElement{
+    visibility: hidden;
+}
+#content>div:nth-child(odd){
     display: flex;
+    position: relative;
     flex-direction: column;
     gap: 5vh;
 }
-#content h1,
-h2 {
-    text-align: left;
-    margin-top: 2rem;
+#content p{
+    color: var(--second);
+    font-weight: 500;
 }
-#content>div:first-child h1{
-    color: white;
+#content a {
+    color: var(--second);
+    font-style: italic;
 }
-#content hr {
-    width: 75%;
-    border: none;
-    height: 0.5px;
-    background-color: black;
-}
-img {
+img{
     cursor: zoom-in;
+    width: 90%;
 }
 .images{
-    padding: 2vh 5vw;
-    display: grid;
-    grid-template-columns: 50% 50%;
+    padding: 0 0 0 1em;
     align-items: center;
-    grid-gap: 1vw;
-}
-.images img, .images video{
-    width: 100%;
-    height: auto;
-}
-.images video:first-child,.images img:first-child{
-    grid-column: span 2;
-}
-.img-wrapper{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.img-wrapper img, .img-wrapper
-video {
-    height: 20vw;
-    margin: auto;
 }
 .enlarged{
     position: fixed;
@@ -132,6 +117,22 @@ video {
     background-color: rgba(255,255,255);
     z-index: 1;
 }
+.toggleElement{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color: var(--color) ;
+}
+.media{
+    display: none;
+}
+.media>div:first-child{
+    margin: 0 0 1em 1em;
+}
+.visible{
+    display: block;
+}
 @media screen and (max-width: 768px) {
     body {
         font-size: 0.9em;
@@ -140,14 +141,18 @@ video {
     #menu {
         visibility: hidden;
     }
+    img {
+        width: 100%;
+    }
     .images{
         padding: unset;
     }
-    .img-wrapper img,
-    video {
-        width: 100%;
-        margin: auto;
-        height: unset !important;
+    .media>div:first-child{
+        margin: 0 0 1em 0;
+    }
+    #content{
+        grid-template-columns: 100%;
+        row-gap: 2.5vh;
     }
     .enlarged{
         position: fixed;

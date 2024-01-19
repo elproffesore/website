@@ -1,94 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <script src="src/libs/marked.min.js"></script>
     <link rel="preconnect" href="https://rsms.me/">
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <link rel="stylesheet" href="src/index.css">
-    <title>Philipp Proff</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <title>Home</title>
 </head>
+
 <body>
     <div id="menu"></div>
     <div id="content"></div>
     <div id="background"></div>
+    <a id="impressum" href="/src/impressum.html">Impressum</a>
     <script>
         fetch('/media/content.md')
-        .then(content => content.text())
-        .then(content => {
-            let sites = content.split('------')
-            sites.map((site,siteIndex) => {
-                let wrapper = document.createElement('div')
-                let siteArray = site.split('<-images->')
-                if(siteArray.length > 1){
-                    site = siteArray[0]
-                    let images = document.createElement('div')
-                    images.classList.add('images')
-                    images.innerHTML = siteArray[1]
-                    wrapper.appendChild(images)
-                }
-                //content
-                let html = marked.parse(site)
-                let div = document.createElement('div')
-                div.classList.add('text')
-                div.innerHTML = html
-                wrapper.prepend(div)
+            .then(content => content.text())
+            .then(content => {
+                let sites = content.split('------')
+                sites.map((site, siteIndex) => {
+                    let components = site.split('---');
+                    let content = document.createElement('div')
+                    //content
+                    let text = marked.parse(components[0])
+                    let textElement = document.createElement('div')
+                    textElement.classList.add('text')
+                    textElement.innerHTML = text
+                    content.prepend(textElement)
+                    document.getElementById('content').appendChild(content)
+                    let title = textElement.querySelector('h3')
+                    title.id = title.innerHTML.toLocaleLowerCase().replaceAll(' ', '-')
+                    
+                    //menu
+                    let menuElement = document.createElement('a')
+                    menuElement.href = '#' + title.id
+                    menuElement.innerHTML = siteIndex > 0 ? "⇢ " + title.innerHTML : title.innerHTML
+                    document.getElementById('menu').appendChild(menuElement)
 
-                document.getElementById('content').appendChild(wrapper)
-                document.getElementById('content').appendChild(document.createElement('br'))
-                document.getElementById('content').appendChild(document.createElement('hr'))
-                //menu
-                let h1 = div.getElementsByTagName('h1')[0]
-                h1.id = h1.innerHTML.toLocaleLowerCase().replaceAll(' ', '-')
-                let a = document.createElement('a')
-                a.href = '#' + h1.id
-                a.innerHTML = siteIndex > 0 ? "⇢ "+h1.innerHTML:h1.innerHTML
-                document.getElementById('menu').appendChild(a)
-            }) 
-            let a = document.createElement('a')
-            a.href = '/src/impressum.html'
-            a.innerHTML = 'Impressum'
-            document.getElementById('menu').appendChild(a)
-            document.querySelectorAll('img').forEach(img => {
-                img.addEventListener('click', enlargeImage)
+                    let media = document.createElement('div')
+                    document.getElementById('content').appendChild(media)
+
+                    let toggleElement = document.createElement('span')
+                    toggleElement.innerHTML = "[+]"
+                    toggleElement.classList.add('toggleElement')
+                    content.appendChild(toggleElement)
+
+                    let mediaElement = document.createElement('div')
+                    mediaElement.classList.add('media')
+                    media.appendChild(mediaElement)
+
+                    toggleElement.addEventListener('click', (event) => {
+                        mediaElement.classList.toggle('visible')
+                        event.target.innerHTML = mediaElement.classList.contains('visible') ? "[-]" : "[+]"
+                    })
+
+                    if (components.length > 1) {
+                            let tags = components[1]
+                            let tagsElement = document.createElement('div')
+                            tagsElement.classList.add('tags')
+                            tagsElement.innerHTML = tags
+                            mediaElement.appendChild(tagsElement)
+                            if(components.length > 2) {
+                                //images
+                                let images = components[2]
+                                let imagesElement = document.createElement('div')
+                                imagesElement.classList.add('images')
+                                imagesElement.innerHTML = images
+                                mediaElement.appendChild(imagesElement)
+                            }
+                    }
+                })
+                //make all images enlargeable
+                document.querySelectorAll('img').forEach(img => {
+                    img.addEventListener('click', enlargeImage)
+                })
             })
-        })
 
-        function showMenu(){
-            document.getElementById("burgerOpen").style.visibility = "hidden"
-            document.getElementById("burgerClose").style.visibility = "visible"
-            document.getElementById("menu").style.visibility = "visible"
-        }       
-        function closeMenu(){
-            document.getElementById("burgerClose").style.visibility = "hidden"
-            document.getElementById("burgerOpen").style.visibility = "visible"
-            document.getElementById("menu").style.visibility = "hidden"
-        }
+        //enlarge images
         let image = null
-        function enlargeImage(event){
+        function enlargeImage(event) {
             image = event.target
             image.classList.add('enlarged')
             image.addEventListener('click', closeImage)
             document.getElementById('background').style.visibility = 'visible'
         }
         document.addEventListener('keydown', (event) => {
-            if(event.key == 'Escape'){
+            if (event.key == 'Escape') {
                 closeImage()
             }
         })
         document.addEventListener('scroll', (event) => {
             closeImage()
         })
-        function closeImage(){
-            if(image == null) return
+        function closeImage() {
+            if (image == null) return
             document.getElementById('background').style.visibility = 'hidden'
             image.classList.remove('enlarged')
             image.removeEventListener('click', closeImage)
             image = null
         }
     </script>
-    
+
 </body>
+
 </html>
