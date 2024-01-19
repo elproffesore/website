@@ -19,7 +19,11 @@
     <div id="menu"></div>
     <div id="content"></div>
     <div id="background"></div>
-    <a id="impressum" href="/src/impressum.html">Impressum</a>
+    <div id="footer">
+        <a href="/src/impressum.html" target="_blank">Impressum ●</a>
+        <a href="https://www.instagram.com/mrproffo/" target="_blank">Instagram ●</a>
+        <a href="mailto:philipp.proff@gmx.de" target="_blank">E-Mail</a>
+    </div>
     <script>
         fetch('/media/content.md')
             .then(content => content.text())
