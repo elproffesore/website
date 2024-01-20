@@ -2,8 +2,9 @@
 :root {
     font-family: 'Merriweather', serif;
     --color: #000;
-    --second: rgb(0, 0, 0,0.6);
-    --accent: #2144F5
+    --second: rgb(0, 0, 0,0.8);
+    --accent: rgb(15, 15, 224);
+    
 
 }
 html, body{
@@ -58,14 +59,17 @@ a:hover {
 }
 
 /* Content Container */
-#footer {
+footer {
     position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
 }
 #content{
-    text-align: justify;
     margin: 2rem 0rem;
     display: grid;
     grid-template-columns: 66% 33%;
@@ -81,8 +85,8 @@ a:hover {
     flex-direction: column;
     gap: 5vh;
 }
-
 #content p{
+    line-height: 1.5em;
     color: var(--second);
     font-weight: 500;
 }
@@ -91,6 +95,33 @@ a:hover {
     text-decoration: underline;
     font-style: italic;
 }
+blockquote{
+    margin-left: 0;
+}
+blockquote p{
+    font-style: italic;
+    font-weight: 500;
+    color: var(--accent) !important;
+    border-left: 0.2em solid var(--accent);
+    padding-left: 0.5em;
+}
+.toggleElement{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color: var(--color) ;
+}
+.media{
+    display: none;
+}
+.media>div:first-child{
+    margin: 0 0 1em 1em;
+}
+.visible{
+    display: block;
+}
+/*image enlargment*/
 img{
     cursor: zoom-in;
     width: 90%;
@@ -119,26 +150,12 @@ img{
     background-color: rgba(255,255,255);
     z-index: 1;
 }
-.toggleElement{
-    position: absolute;
-    top: 0;
-    right: 0;
-    cursor: pointer;
-    color: var(--color) ;
-}
-.media{
-    display: none;
-}
-.media>div:first-child{
-    margin: 0 0 1em 1em;
-}
-.visible{
-    display: block;
-}
+
 @media screen and (max-width: 768px) {
     body {
         font-size: 0.9em;
         grid-template-columns: 10% 80% 10%;
+        margin-bottom: 5em;
     }
     #menu {
         visibility: hidden;
@@ -149,16 +166,27 @@ img{
     .images{
         padding: unset;
     }
+    .toggleElement{
+        display: none;
+    }
+    .media{
+        display: block;
+    }
     .media>div:first-child{
         margin: 0 0 1em 0;
     }
     #content{
         grid-template-columns: 100%;
+        margin-bottom: 10em;
         row-gap: 2.5vh;
     }
     .enlarged{
         position: fixed;
         height: auto !important;
         width: 80vw !important;
+    }
+    footer{
+        flex-direction: column;
+        gap: 1em;
     }
 }
