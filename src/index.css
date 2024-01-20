@@ -68,7 +68,7 @@ a:hover {
     text-align: justify;
     margin: 2rem 0rem;
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 66% 33%;
     grid-column: 2;
     row-gap: 10vh;
 }
@@ -81,12 +81,14 @@ a:hover {
     flex-direction: column;
     gap: 5vh;
 }
+
 #content p{
     color: var(--second);
     font-weight: 500;
 }
 #content a {
     color: var(--second);
+    text-decoration: underline;
     font-style: italic;
 }
 img{
