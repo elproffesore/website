@@ -74,7 +74,7 @@ footer {
     display: grid;
     grid-template-columns: 66% 33%;
     grid-column: 2;
-    row-gap: 10vh;
+    row-gap: 3em;
 }
 #content>div:nth-child(1)>.toggleElement{
     visibility: hidden;
