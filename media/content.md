@@ -45,7 +45,7 @@ In addition to dealing with the topic using the conventional methods of economic
 
 This project was part of the "Tangible Climate Data" class that investigated new ways to question and visualize the complex topic of climate change. "Dialectics of Climate Futures" wants to clarify the interwoven relationships and initiate a discourse. We use an emotionally framed artificial intelligence as a means to get in touch with opposing emotional states. Through the process of the interaction we hope to break out of thought patterns and provoke thought experiments. The goal is to ask and discuss the question:
 
-<b>Can we find common ground?</b>.
+<b>Can we find common ground?</b>
 
 To this date the project was exhibited at the Manifest:IO Symposium for Electronic Art and New Media, the first event of the Symbiotism collective at Disko Babel and at the Ars Electronica 2023 Festival.
 ---
