@@ -18,7 +18,9 @@ This project was done together with [Prof. Marian Dörk](https://mariandoerk.de/
 
 The code is [open source](https://github.com/uclab-potsdam/syllabus-site/)
 
-It is in use for FH Potsdams class ["Decolonizing Data Visualization – Visualizing Postcolonies"](https://uclab-potsdam.github.io/decolonizing/) and for the class ["Organigrams for/from the future"](https://uclab-potsdam.github.io/syllabus-site/)
+There is an [explanatory site](https://infovis.fh-potsdam.de/syllabussite/) and the sites for classes of the FH Potsdam:<br>
+["Decolonizing Data Visualization – Visualizing Postcolonies"](https://infovis.fh-potsdam.de/decolonizing/)<br>
+["Organigrams for/from the future"](https://infovis.fh-potsdam.de/organigrams/)
 ---
 [2023, Work]
 ---
