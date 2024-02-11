@@ -6,7 +6,7 @@
 
 My name is Philipp and I’m currently studying [Design & Computation](https://www.newpractice.net/study) at Technische Universität Berlin and Universität der Künste Berlin. I’m interested in data and media visualization, interfaces and media theory. Through my studies, projects and work I aim at disentangling the weird parts of technology and want to keep afloat on this huge ocean of information. 
 ------
-### Notespace 
+### Personal Notetaking Tool
 Notetaking is integral to studying, brainstorming and archiving ideas that come to mind. Usually I use a small notebook to write and sketch down my ideas for projects or theoretical thinking. But there are several things that my analogous notebook doesn't provide. While brainstorming I often try to sketch my ideas and associate it with already familiar projects or other artists/designers. The sketching part is easier with the notebook but the references and associations are more usefull in a hyperlink system. I was unhappy with the solutions that are out there because they offered too many features and I couldn't integrate some features I wanted from other tools. Another really important part was the idea that I could rearrange the visualisation of my notes and also could integrate some search and analytical functions later. 
 ---
 [2024, Personal Project]
