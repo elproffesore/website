@@ -27,18 +27,6 @@ There is an [explanatory site](https://infovis.fh-potsdam.de/syllabussite/) and 
 ---
 <img src="/media/syllabus-site/output.gif" />
 ------
-### Workshop on AI in Art
-The workshop showcased the possibilities of AI in the context of art and partly in the context of healthcare. During the workshop teams discussed about the future of healthcare and the role of AI. The discussion was recorded and later summarized by an AI. The AI also created images that metaphorically depicted the discussion and acted that as a starting point for another discussion. Throughout the workshop the participants were introduced to advancements in generative techniques and the possibilities of AI in the context of art. 
-
-The workshop was held for the "Diagnostics" department of the company Roche and was part of their "DEGL+K Sommertagung".
----
-[2023, Work]
---- 
-<img src="/media/roche-workshop/bild1.jpeg"/>
-<img src="/media/roche-workshop/bild2.jpeg"/>
-<img src="/media/roche-workshop/bild3.jpeg"/>
-
-------
 ### Dialectics of Climate Futures 
 > Anthropogenic climate change is more relevant than ever. Despite the scientific evidence that has been gathered and substantiated in recent decades, social fronts are sharpening and polarizing. Thus, we find that the discussion about the climate crisis must not only be approached from the quantitative side, but also from the qualitative, emotional side. 
 
@@ -55,3 +43,14 @@ To this date the project was exhibited at the Manifest:IO Symposium for Electron
 <img src="/media/dialectics-of-climate-futures/bild1.jpg"/>
 <img src="/media/dialectics-of-climate-futures/bild2.jpg"/>
 <img src="/media/dialectics-of-climate-futures/bild3.jpg"/>
+------
+### Workshop on AI in Art
+The workshop showcased the possibilities of AI in the context of art and partly in the context of healthcare. During the workshop teams discussed about the future of healthcare and the role of AI. The discussion was recorded and later summarized by an AI. The AI also created images that metaphorically depicted the discussion and acted that as a starting point for another discussion. Throughout the workshop the participants were introduced to advancements in generative techniques and the possibilities of AI in the context of art. 
+
+The workshop was held for the "Diagnostics" department of the company Roche and was part of their "DEGL+K Sommertagung".
+---
+[2023, Work]
+--- 
+<img src="/media/roche-workshop/bild1.jpeg"/>
+<img src="/media/roche-workshop/bild2.jpeg"/>
+<img src="/media/roche-workshop/bild3.jpeg"/>
