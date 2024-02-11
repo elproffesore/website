@@ -52,12 +52,13 @@
                     document.getElementById('content').appendChild(media)
 
                     let toggleElement = document.createElement('span')
-                    toggleElement.innerHTML = "[+]"
+                    toggleElement.innerHTML = "[-]"
                     toggleElement.classList.add('toggleElement')
                     content.appendChild(toggleElement)
 
                     let mediaElement = document.createElement('div')
                     mediaElement.classList.add('media')
+                    mediaElement.classList.add('visible')
                     media.appendChild(mediaElement)
 
                     toggleElement.addEventListener('click', (event) => {
