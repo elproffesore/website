@@ -21,11 +21,11 @@
     <div id="background"></div>
     <footer>
         <a href="/src/impressum.html" target="_blank">Impressum</a>
-        <a href="https://www.instagram.com/mrproffo/" target="_blank">Instagram</a>
+        <a href="https://www.are.na/philipp-proff/channels" target="_blank">Are.na</a>
         <a href="mailto:philipp.proff@gmx.de" target="_blank">E-Mail</a>
     </footer>
     <script>
-        fetch('/media/content.md')
+        fetch('/src/content.md')
             .then(content => content.text())
             .then(content => {
                 let sites = content.split('------')
