@@ -8,7 +8,11 @@ My name is Philipp and I’m currently studying [Design & Computation](https://w
 ------
 ### From Space to Place
 
-From Space to Place is an interdisciplinary exploration to understand the complex interplay between environement and human interventions. I cooperated here with my study fellow Lora. The projects aim was to get a more holistic approach for understanding and mapping a space. As we researched different methods for understanding the environment from an interdisciplinary perspective, we began to shift our idea of space into a more constructed notion of "place". Throughout our project, we engaged in critical evaluation of environmental models, particularly during a workshop that sparked intriguing questions about anthropogenic markers and their implications for local political actions and future predictions. One of our outcomes was an installation that seeks to create an experience that allows participants to perceive the changing physical layer through the lens of the digital, utilizing technologies such as 3D Scans to reveal the layered transformations that places undergo. By highlighting the evolving relationship between places and time, our installation offers a novel perspective on how digital representations can complement and preserve the physical reality of locations as they change.
+From Space to Place is an interdisciplinary exploration to understand the complex interplay between environement and human interventions. I cooperated here with my study fellow Lora. The projects aim was to get a more holistic approach for understanding and mapping a space. As we researched different methods for understanding the environment from an interdisciplinary perspective, we began to shift our idea of space into a more constructed notion of "place". 
+
+Throughout our project, we engaged in critical evaluation of environmental models, particularly during a workshop that sparked intriguing questions about anthropogenic markers and their implications for local political actions and future predictions. 
+
+One of our outcomes was an installation that seeks to create an experience that allows participants to perceive the changing physical layer through the lens of the digital, utilizing technologies such as 3D Scans to reveal the layered transformations that places undergo. By highlighting the evolving relationship between places and time, our installation offers a novel perspective on how digital representations can complement and preserve the physical reality of locations as they change.
 
 ---
 [2024, University Project]
