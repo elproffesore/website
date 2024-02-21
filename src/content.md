@@ -70,5 +70,5 @@ Most of this work can be found on my [Github](https://github.com/elproffesore)
 ---
 [ongoing, Personal Project]
 ---
-<img src="/media/drawing-together-with-software/bild1.png"/>
-<img src="/media/drawing-together-with-software/diagram.gif"/>
+<img src="/media/drawing-together/bild1.png"/>
+<img src="/media/drawing-together/diagram.gif"/>
