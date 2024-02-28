@@ -4,7 +4,7 @@
 <br/>
 <br/>
 
-My name is Philipp and I’m currently studying [Design & Computation](https://www.newpractice.net/study) at Technische Universität Berlin and Universität der Künste Berlin. I’m interested in data and media visualization, interfaces and media theory. Through my studies, projects and work I aim at disentangling the weird parts of technology and want to keep afloat on this huge ocean of information. 
+My name is Philipp and I’m currently studying [Design & Computation](https://www.newpractice.net/study) at Technische Universität Berlin and Universität der Künste Berlin. I’m interested in data and media visualization, interfaces and media theory. Through my studies, projects and work I disentangling the weird parts of technology and want to keep afloat on this huge ocean of information. 
 ------
 ### From Space to Place
 
