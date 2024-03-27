@@ -1,6 +1,6 @@
 
 ### Portfolio
-Hi my name is Philipp and I study [Design & Computation](https://www.newpractice.net/study) at Technische Universität Berlin and Universität der Künste Berlin. I’m interested in data and media visualization, interfaces and media theory. Through my studies, projects and work I aim at disentangling the weird parts of technology. 
+Hi my name is Philipp and I study [Design & Computation](https://www.newpractice.net/study) at Technische Universität Berlin and Universität der Künste Berlin. I’m interested in data and media visualization, interfaces and media theory. Through my studies, projects and work I try to critically examine technology and create software that enables groups not profits. 
 ---
 [Me]
 ---
