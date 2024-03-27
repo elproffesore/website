@@ -10,9 +10,7 @@ Hi my name is Philipp and I study [Design & Computation](https://www.newpractice
 
 From Space to Place is an interdisciplinary exploration to understand the complex interplay between environement and human interventions. The projects aim was to get a more holistic approach for understanding and mapping a space. As we researched different methods for understanding the environment from an interdisciplinary perspective, we began to shift our idea of space into a more constructed notion of "place". 
 
-Throughout our project, we engaged in critical evaluation of environmental models, particularly during a workshop that sparked intriguing questions about anthropogenic markers and their implications for local political actions and future predictions. 
-
-One of our outcomes was an installation that seeks to create an experience that allows participants to perceive the changing physical environment through the lens of the digital, utilizing technologies such as 3D Scans to reveal the layered transformations that places undergo. By highlighting the evolving relationship between places and time, our installation offers a novel perspective on how digital representations can complement and preserve the physical reality of locations as they change.
+One of our outcomes was an installation that seeks to create an experience that allows participants to perceive the changing physical environment as a continous evolving digital representation, utilizing technologies such as pointclouds to reveal the layered transformations that places undergo. The different scenarios are accompanied with spoken memories that are connected to these places at a specific time. By highlighting the ever changing relationship between places and experience over time, our installation offers a novel perspective on how digital representations can complement and preserve a place and the human subjective gaze connected to it.
 
 ---
 [2024, University Project]
