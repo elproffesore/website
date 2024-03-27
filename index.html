@@ -12,7 +12,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,700&display=swap"
         rel="stylesheet">
-    <title>Home</title>
+        <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <title>Home</title>
 </head>
 
 <body>
@@ -52,7 +53,7 @@
                     document.getElementById('content').appendChild(media)
 
                     let toggleElement = document.createElement('span')
-                    toggleElement.innerHTML = "[-]"
+                    toggleElement.innerHTML = "[–]"
                     toggleElement.classList.add('toggleElement')
                     content.appendChild(toggleElement)
 
@@ -63,7 +64,7 @@
 
                     toggleElement.addEventListener('click', (event) => {
                         mediaElement.classList.toggle('visible')
-                        event.target.innerHTML = mediaElement.classList.contains('visible') ? "[-]" : "[+]"
+                        event.target.innerHTML = mediaElement.classList.contains('visible') ? "[–]" : "[+]"
                     })
 
                     if (components.length > 1) {
@@ -90,20 +91,14 @@
 
         //enlarge images
         let image = null
+        document.addEventListener('keydown',closeImage)
+        document.addEventListener('scroll',(e) => {if(image != null) e.preventDefault()} )
         function enlargeImage(event) {
             image = event.target
             image.classList.add('enlarged')
             image.addEventListener('click', closeImage)
             document.getElementById('background').style.visibility = 'visible'
         }
-        document.addEventListener('keydown', (event) => {
-            if (event.key == 'Escape') {
-                closeImage()
-            }
-        })
-        document.addEventListener('scroll', (event) => {
-            closeImage()
-        })
         function closeImage() {
             if (image == null) return
             document.getElementById('background').style.visibility = 'hidden'
