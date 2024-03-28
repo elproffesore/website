@@ -12,6 +12,8 @@ From Space to Place is an interdisciplinary exploration to understand the comple
 
 One of our outcomes was an installation that seeks to create an experience that allows participants to perceive the changing physical environment as a continous evolving digital representation, utilizing technologies such as pointclouds to reveal the layered transformations that places undergo. The different scenarios are accompanied with spoken memories that are connected to these places at a specific time. By highlighting the ever changing relationship between places and experience over time, our installation offers a novel perspective on how digital representations can complement and preserve a place and the human subjective gaze connected to it.
 
+
+You can find an interactive documentation of the project [here](https://studio.philippproff.eu) (only desktop).
 ---
 [2024, University Project]
 ---
