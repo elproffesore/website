@@ -29,7 +29,7 @@ There is an [explanatory site](https://infovis.fh-potsdam.de/syllabussite/) and 
 ---
 [2023, Work]
 ---
-<img src="/media/syllabus-site/output.gif" />
+<img src="/media/generative-syllabus-site/output.gif" />
 ------
 ### Dialectics of Climate Futures 
 > Anthropogenic climate change is more relevant than ever. Despite the scientific evidence that has been gathered and substantiated in recent decades, social fronts are sharpening and polarizing. Thus, we find that the discussion about the climate crisis must not only be approached from the quantitative side, but also from the qualitative, emotional side. 
@@ -44,9 +44,9 @@ To this date the project was exhibited at the Manifest:IO Symposium for Electron
 ---
 [2023, University Project] 
 ---
-<img src="/media/dialectics-of-climate-futures/bild1.jpg"/>
-<img src="/media/dialectics-of-climate-futures/bild2.jpg"/>
-<img src="/media/dialectics-of-climate-futures/bild3.jpg"/>
+<img src="/media/dialectics-of-climate-futures/bild1.webp"/>
+<img src="/media/dialectics-of-climate-futures/bild2.webp"/>
+<img src="/media/dialectics-of-climate-futures/bild3.webp"/>
 ------
 ### Recreational Programming
 
@@ -62,5 +62,5 @@ Therefore I sometimes come up with small personal solutions and fun projects tha
 ---
 [ongoing, Personal Project]
 ---
-<img src="/media/drawing-together/bild1.png"/>
-<img src="/media/drawing-together/diagram.gif"/>
+<img src="/media/recreational-programming/bild1.webp"/>
+<img src="/media/recreational-programming/bild2.webp"/>

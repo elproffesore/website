@@ -9,6 +9,7 @@ html, body{
     scroll-behavior: smooth;
 }
 p,a,h1,h2,h3,h4,h5,h6{
+    color: var(--color);
     margin-top: 0;
     padding-top: 0;
 }
@@ -47,6 +48,7 @@ body {
 }
 
 #specs{
+    color: var(--second);
     font-family: Arimo;  
     font-size: 0.7em;
     margin-top: auto;
@@ -124,6 +126,9 @@ blockquote p{
     cursor: pointer;
     color: var(--color) ;
 
+}
+.tags{
+    color: var(--color);
 }
 .media{
     display: none;
@@ -209,3 +214,13 @@ img{
         font-size: 1.1em;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        background-color: #000;
+        --color: #fff;
+        --second: #fff;
+        --accent: rgb(214, 59, 209);
+    }
+    
+  }
