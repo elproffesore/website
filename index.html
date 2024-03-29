@@ -120,9 +120,9 @@
         document.getElementById('font').innerHTML = window.getComputedStyle(document.querySelector('#content'),null).getPropertyValue('font-family') + "<br>" + window.getComputedStyle(document.querySelector('#menu'),null).getPropertyValue('font-family')
         document.getElementById('width').innerHTML = window.innerWidth + "px"
         document.getElementById('height').innerHTML = window.innerHeight + "px"
-        document.getElementById('time').innerHTML =  new Date().toLocaleTimeString()
+        document.getElementById('time').innerHTML =  new Date().toLocaleString("de-DE",{timeZone: 'Europe/Berlin'})
         setInterval(() => {
-            document.getElementById('time').innerHTML = new Date().toLocaleTimeString()
+            document.getElementById('time').innerHTML =  new Date().toLocaleString("de-DE",{timeZone: 'Europe/Berlin'})
         }, 1000)
         window.addEventListener('resize', () => {
             document.getElementById('width').innerHTML = window.innerWidth + "px"
