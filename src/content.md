@@ -1,10 +1,9 @@
 
-### Portfolio
+### Introduction
 Hi, my name is Philipp and I study [Design & Computation](https://www.newpractice.net/study) at Technische Universität Berlin and Universität der Künste Berlin. I’m interested in data and media visualization, interfaces and media theory. Through my studies, projects and work I try to critically examine technology and create software that enables groups not profits. 
 ---
-[Me]
+[No pics unfortunately]
 ---
-<img src="/media/me.png" alt=""/>
 ------
 ### From Space to Place
 
@@ -19,7 +18,7 @@ You can find an interactive documentation of the project [here](https://studio.p
 ---
 <img src="/media/from-space-to-place/fstp.gif" alt=""/>
 ------
-### Experimental Syllabus Site 
+### Generative Syllabus Site 
 This project was done together with [Prof. Marian Dörk](https://mariandoerk.de/) from the [UCLAB](https://uclab.fh-potsdam.de/). A syllabus site is a website that contains all the information about a class. It is usually structured in a linear way and is not very flexible. The aim of this project was to create a new kind of syllabus site that would allow the students to explore the content of the class in a more playful way. It also allows students to see the process and prototypes from a past class. The structure of the project also provides the opportunity for non-programmers to create their own syllabus sites with a markdown file and the application automatically generates the visualisation.
 
 The code is [open source](https://github.com/uclab-potsdam/syllabus-site/)
@@ -49,7 +48,7 @@ To this date the project was exhibited at the Manifest:IO Symposium for Electron
 <img src="/media/dialectics-of-climate-futures/bild2.jpg"/>
 <img src="/media/dialectics-of-climate-futures/bild3.jpg"/>
 ------
-### Software for Community and Fun
+### Recreational Programming
 
 Over the last couple of years I have come across multiple groups that try to reimagine the web. I was always fascinated by the possibilites that we have with current browser technology and how we can hack things together, especially in a safe environment where we don't have to think of all the black hat stuff. Additionally I often struggle with existing software that lacks some interoperability features. 
 

@@ -4,20 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <script src="src/libs/marked.min.js"></script>
-    <link rel="preconnect" href="https://rsms.me/">
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <link rel="stylesheet" href="src/index.css">
     <link
-        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-        <title>Home</title>
+    <meta property="og:title" content="Philipp Proff">
+    <meta property="og:description" content="This website is the contemporary representation of my works, thoughts and creativity.">
+    <meta property="og:image" content="https://philippproff.eu/media/me.png">
+    <meta property="og:url" content="https://philippproff.eu/">
+
+    <title>Home</title>
 </head>
 
 <body>
-    <div id="menu"></div>
+    <div id="menu">
+        <div id="refs"></div>
+        <div id="specs">
+            <table>
+                <tr>
+                    <td>Fonts:</td>
+                    <td id="font"></td>
+                </tr>
+                <tr>
+                    <td>Width:</td>
+                    <td id="width"></td>
+                </tr>
+                <tr>
+                    <td>Height:</td>
+                    <td id="height"></td>
+                </tr>
+                <tr>
+                    <td>Time:</td>
+                    <td id="time"></td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
     <div id="content"></div>
     <div id="background"></div>
     <footer>
@@ -42,12 +66,12 @@
                     document.getElementById('content').appendChild(content)
                     let title = textElement.querySelector('h3')
                     title.id = title.innerHTML.toLocaleLowerCase().replaceAll(' ', '-')
-                    
+
                     //menu
                     let menuElement = document.createElement('a')
                     menuElement.href = '#' + title.id
                     menuElement.innerHTML = siteIndex > 0 ? "⇢ " + title.innerHTML : title.innerHTML
-                    document.getElementById('menu').appendChild(menuElement)
+                    document.getElementById('refs').appendChild(menuElement)
 
                     let media = document.createElement('div')
                     document.getElementById('content').appendChild(media)
@@ -68,31 +92,46 @@
                     })
 
                     if (components.length > 1) {
-                            let tags = components[1]
-                            let tagsElement = document.createElement('div')
-                            tagsElement.classList.add('tags')
-                            tagsElement.innerHTML = tags
-                            mediaElement.appendChild(tagsElement)
-                            if(components.length > 2) {
-                                //images
-                                let images = components[2]
-                                let imagesElement = document.createElement('div')
-                                imagesElement.classList.add('images')
-                                imagesElement.innerHTML = images
-                                mediaElement.appendChild(imagesElement)
-                            }
+                        let tags = components[1]
+                        let tagsElement = document.createElement('div')
+                        tagsElement.classList.add('tags')
+                        tagsElement.innerHTML = tags
+                        mediaElement.appendChild(tagsElement)
+                        if (components.length > 2) {
+                            //images
+                            let images = components[2]
+                            let imagesElement = document.createElement('div')
+                            imagesElement.classList.add('images')
+                            imagesElement.innerHTML = images
+                            mediaElement.appendChild(imagesElement)
+                        }
                     }
                 })
                 //make all images enlargeable
                 document.querySelectorAll('img').forEach(img => {
                     img.addEventListener('click', enlargeImage)
                 })
+                document.querySelectorAll('#content a').forEach(a => {
+                    a.target = "_blank"
+                })
             })
 
+        //specs
+        document.getElementById('font').innerHTML = window.getComputedStyle(document.querySelector('#content'),null).getPropertyValue('font-family') + "<br>" + window.getComputedStyle(document.querySelector('#menu'),null).getPropertyValue('font-family')
+        document.getElementById('width').innerHTML = window.innerWidth + "px"
+        document.getElementById('height').innerHTML = window.innerHeight + "px"
+        document.getElementById('time').innerHTML =  new Date().toLocaleTimeString()
+        setInterval(() => {
+            document.getElementById('time').innerHTML = new Date().toLocaleTimeString()
+        }, 1000)
+        window.addEventListener('resize', () => {
+            document.getElementById('width').innerHTML = window.innerWidth + "px"
+            document.getElementById('height').innerHTML = window.innerHeight + "px"
+        })
         //enlarge images
         let image = null
-        document.addEventListener('keydown',closeImage)
-        document.addEventListener('scroll',(e) => {if(image != null) e.preventDefault()} )
+        document.addEventListener('keydown', closeImage)
+        document.addEventListener('scroll', (e) => { if (image != null) e.preventDefault() })
         function enlargeImage(event) {
             image = event.target
             image.classList.add('enlarged')
