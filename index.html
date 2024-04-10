@@ -21,8 +21,8 @@
   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="src/libs/marked.min.js"></script>
-    <link rel="stylesheet" href="src/index.css">
+    <script src="libs/marked.min.js"></script>
+    <link rel="stylesheet" href="index.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
@@ -62,12 +62,12 @@
     <div id="content"></div>
     <div id="background"></div>
     <footer>
-        <a href="/src/impressum.html" target="_blank">Impressum</a>
+        <a href="/impressum.html" target="_blank">Impressum</a>
         <a href="https://www.are.na/philipp-proff/channels" target="_blank">Are.na</a>
         <a href="mailto:philipp.proff@gmx.de" target="_blank">E-Mail</a>
     </footer>
     <script>
-        fetch('/src/content.md')
+        fetch('/content.md')
             .then(content => content.text())
             .then(content => {
                 let sites = content.split('------')
