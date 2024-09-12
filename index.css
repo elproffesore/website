@@ -101,7 +101,7 @@ footer {
     gap: 5vh;
 }
 #content p{
-    line-height: 1.5em;
+    line-height: 1.3em;
     color: var(--second);
 }
 #content a {

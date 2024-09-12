@@ -1,9 +1,20 @@
 
 ### Introduction
-Hi, my name is Philipp and I study [Design & Computation](https://www.newpractice.net/study) at Technische Universität Berlin and Universität der Künste Berlin. I’m interested in data and media visualization, interfaces and media theory. Through my studies, projects and work I try to critically examine technology and create software that enables groups not profits. 
+Hi, my name is Philipp and I study [Design & Computation](https://www.newpractice.net/study) at Technische Universität Berlin and Universität der Künste Berlin. I’m interested in data and media visualization, interfaces and media theory. 
 ---
-[No pics unfortunately]
+<img src="/media/me.png" alt=""/>
 ---
+------
+### Forever Lost Deutschland?
+
+This project was done in the context of a [data journalism class at FH Potsdam](https://uclab.fh-potsdam.de/mapping/). Throughout the semester a dataset from the [SOSEC](https://www.socialsentiment.org/sosec-dashboard/) workgroup at KIT and FZI was analysed and synthesized with other datasets for establishing geographic and economic relations between the datapoints. Central to the analysis was the definition of the "perceived crisis level", which was indicated by several proxy references (such as anger, depression, money sorrows and doomsday mood). The perceived level of crisis has been an interesting indicator for analysing the overestimation of situations that are normally not noticable for people without this feeling. The connection between the perceived crisis level and democracy fatique or extremism, has also shown why there should be more emphasize on the improvment of living conditions. This improvment could be achieved by increased intervention to integrate groups of people that are left behind due to economical or societal reasons. 
+
+Find out more on the [website](https://elproffesore.github.io/mapping-cities-making-cities/).
+---
+[2024, University Project]
+---
+<img src="/media/forever-lost-deutschland/bild1.png">
+<img src="/media/forever-lost-deutschland/bild2.png">
 ------
 ### From Space to Place
 
@@ -11,12 +22,12 @@ From Space to Place is an interdisciplinary exploration to understand the comple
 
 One of our outcomes was an installation that seeks to create an experience that allows participants to perceive the changing physical environment as a continous evolving digital representation, utilizing technologies such as pointclouds to reveal the layered transformations that places undergo. The different scenarios are accompanied with spoken memories that are connected to these places at a specific time. By highlighting the ever changing relationship between places and experience over time, our installation offers a novel perspective on how digital representations can complement and preserve a place and the human subjective gaze connected to it.
 
-
-You can find an interactive documentation of the project [here](https://studio.philippproff.eu) (only desktop).
+Find out more on the [website](https://studio.philippproff.eu)(only desktop).
 ---
 [2024, University Project]
 ---
 <img src="/media/from-space-to-place/fstp.gif" alt=""/>
+<img src="/media/from-space-to-place/bild1.png">
 ------
 ### Generative Syllabus Site 
 This project was done together with [Prof. Marian Dörk](https://mariandoerk.de/) from the [UCLAB](https://uclab.fh-potsdam.de/). A syllabus site is a website that contains all the information about a class. It is usually structured in a linear way and is not very flexible. The aim of this project was to create a new kind of syllabus site that would allow the students to explore the content of the class in a more playful way. It also allows students to see the process and prototypes from a past class. The structure of the project also provides the opportunity for non-programmers to create their own syllabus sites with a markdown file and the application automatically generates the visualisation.
@@ -48,19 +59,17 @@ To this date the project was exhibited at the Manifest:IO Symposium for Electron
 <img src="/media/dialectics-of-climate-futures/bild2.webp"/>
 <img src="/media/dialectics-of-climate-futures/bild3.webp"/>
 ------
-### Recreational Programming
+### Coding for Graphic Organization
 
-Over the last couple of years I have come across multiple groups that try to reimagine the web. I was always fascinated by the possibilites that we have with current browser technology and how we can hack things together, especially in a safe environment where we don't have to think of all the black hat stuff. Additionally I often struggle with existing software that lacks some interoperability features. 
-
-<br>
-
-**I also miss fun!**
+Coding has been an interesting topic for me over the course of the last 5 years. From a skill that helps me land a job and is overall satiyfying due to its problem solving nature, to a practice that can be inherently philosophical and political. I often think about code as a tool for exploring new ways organizing my thoughts in a graphic way or allow me to model my thoughts through a computational process.
 
 <br>
 
-Therefore I sometimes come up with small personal solutions and fun projects that resemble my interests, needs and sometimes opinions :) Most of this work can be found on my [Github](https://github.com/elproffesore).
+Therefore I sometimes come up with small personal solutions and fun projects that resemble my interests, needs and sometimes opinions :)
+
+Find out more on my [Github](https://github.com/elproffesore).
 ---
-[ongoing, Personal Project]
+[Personal Projects]
 ---
 <img src="/media/recreational-programming/bild1.webp"/>
 <img src="/media/recreational-programming/bild2.webp"/>
