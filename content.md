@@ -51,7 +51,9 @@ This project was part of the "Tangible Climate Data" class that investigated new
 
 <b>Can we find common ground?</b>
 
-To this date the project was exhibited at the Manifest:IO Symposium for Electronic Art and New Media, the first event of the Symbiotism collective at Disko Babel and at the Ars Electronica 2023 Festival.
+To this date the project was exhibited at the Manifest:IO Symposium for Electronic Art and New Media, the first event of the Symbiotism collective at Disko Babel.
+
+It was also exhibited at the Ars Electronica Festical 2023.
 ---
 [2023, University Project] 
 ---
