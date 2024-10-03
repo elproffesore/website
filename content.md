@@ -61,13 +61,11 @@ It was also exhibited at the Ars Electronica Festical 2023.
 <img src="/media/dialectics-of-climate-futures/bild2.webp"/>
 <img src="/media/dialectics-of-climate-futures/bild3.webp"/>
 ------
-### Coding for Graphic Organization
+### Explorative Coding Practices
 
-Coding has been an interesting topic for me over the course of the last 5 years. From a skill that helps me land a job and is overall satiyfying due to its problem solving nature, to a practice that can be inherently philosophical and political. I often think about code as a tool for exploring new ways organizing my thoughts in a graphic way or allow me to model my thoughts through a computational process.
+Coding interfaces has been an interesting journey for me over the course of the last 5 years. The work on interfaces has shown me the multitude of possibilites to use them – from visual organisation of information to practices that can be quite philosophical and political. I use code as a means for exploring new ways to organize my thoughts and interact with them through graphic means paired with computational methodologies.
 
 <br>
-
-Therefore I sometimes come up with small personal solutions and fun projects that resemble my interests, needs and sometimes opinions :)
 
 Find out more on my [Github](https://github.com/elproffesore).
 ---
