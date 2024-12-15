@@ -176,7 +176,7 @@ img{
 
 @media screen and (max-width: 768px) {
     body {
-        font-size: 1em;
+        font-size: 1.2em;
         grid-template-columns: 10% 80% 10%;
         margin-bottom: 5em;
     }
@@ -214,13 +214,3 @@ img{
         font-size: 1.1em;
     }
 }
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        background-color: #000;
-        --color: #fff;
-        --second: #fff;
-        --accent: rgb(214, 59, 209);
-    }
-    
-  }

@@ -12,8 +12,7 @@ Find out more on the [website](https://elproffesore.github.io/mapping-cities-mak
 ---
 [2024, University Project]
 ---
-<img src="/media/forever-lost-deutschland/bild1.png">
-<img src="/media/forever-lost-deutschland/bild2.png">
+<img src="/media/forever-lost-deutschland/bild3.png">
 ------
 ### From Space to Place
 
@@ -21,7 +20,7 @@ From Space to Place is an interdisciplinary exploration to understand the comple
 
 One of our outcomes was an installation that seeks to create an experience that allows participants to perceive the changing physical environment as a continous evolving digital representation, utilizing technologies such as pointclouds to reveal the layered transformations that places undergo. The different scenarios are accompanied with spoken memories that are connected to these places at a specific time. By highlighting the ever changing relationship between places and experience over time, our installation offers a novel perspective on how digital representations can complement and preserve a place and the human subjective gaze connected to it.
 
-Find out more on the [website](https://studio.philippproff.eu)(only desktop).
+Find out more on the [website](https://studio.philippproff.eu) (only desktop).
 ---
 [2024, University Project]
 ---
@@ -29,7 +28,7 @@ Find out more on the [website](https://studio.philippproff.eu)(only desktop).
 <img src="/media/from-space-to-place/bild1.png">
 ------
 ### Generative Syllabus Site 
-This project was done together with [Prof. Marian Dörk](https://mariandoerk.de/) from the [UCLAB](https://uclab.fh-potsdam.de/). A syllabus site is a website that contains all the information about a class. It is usually structured in a linear way and is not very flexible. The aim of this project was to create a new kind of syllabus site that would allow the students to explore the content of the class in a more playful way. It also allows students to see the process and prototypes from a past class. The structure of the project also provides the opportunity for non-programmers to create their own syllabus sites with a markdown file and the application automatically generates the visualisation.
+This project was done together with [Prof. Marian Dörk](https://mariandoerk.de/) from the [UCLAB](https://uclab.fh-potsdam.de/). A syllabus site is a website that contains all the information about a class. It is usually structured in a linear way and is not very flexible. The aim of this project was to create a new kind of syllabus site that would allow the students to explore the content of the class in a more playful way. It also allows students to see the process and prototypes from a past class. The structure of the project also provides the opportunity for non-programmers to create their own syllabus sites with a markdown file, which automatically generates the visualisation via the application.
 
 The code is [open source](https://github.com/uclab-potsdam/syllabus-site/)
 
@@ -62,7 +61,7 @@ It was also exhibited at the Ars Electronica Festical 2023.
 ------
 ### Explorative Coding Practices
 
-Coding interfaces has been an interesting journey for me over the course of the last 5 years. The work on interfaces has shown me the multitude of possibilites to use them – from visual organisation of information to practices that can be quite philosophical and political. I use code as a means for exploring new ways to organize my thoughts and interact with them through graphic means paired with computational methodologies.
+Coding interfaces has been an interesting journey for me over the course of the last 5 years. The work on interfaces has shown me the multitude of possibilites to use them – from visual organisation of information to practices that can be quite philosophical, recreational and political. I use code as a means for exploring new ways to organize my thoughts and interact with them through graphic means paired with computational methodologies.
 
 <br>
 
@@ -72,3 +71,4 @@ Find out more on my [Github](https://github.com/elproffesore).
 ---
 <img src="/media/recreational-programming/bild1.webp"/>
 <img src="/media/recreational-programming/bild2.webp"/>
+
