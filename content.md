@@ -3,6 +3,7 @@
 Hi, my name is Philipp and I study [Design & Computation](https://www.newpractice.net/study) at Technische Universität Berlin and Universität der Künste Berlin. I’m interested in data and media visualization, interfaces and media theory. 
 ---
 ---
+<img src="/media/me.png"/>
 ------
 ### Forever Lost Deutschland?
 
