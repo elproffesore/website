@@ -7,7 +7,9 @@ Hi, my name is Philipp and I study [Design & Computation](https://www.newpractic
 ------
 ### Forever Lost Deutschland?
 
-This project was done in the context of a [data journalism class at FH Potsdam](https://uclab.fh-potsdam.de/mapping/). Throughout the semester a dataset from the [SOSEC](https://www.socialsentiment.org/sosec-dashboard/) workgroup at KIT and FZI was analysed and synthesized with other datasets for establishing geographic and economic relations between the datapoints. Central to the analysis was the definition of the "perceived crisis level", which was indicated by several proxy references (such as anger, depression, money sorrows and doomsday mood). The perceived level of crisis has been an interesting indicator for analysing the overestimation of situations that are normally not noticable for people without this feeling. The connection between the perceived crisis level and democracy fatique or extremism, has also shown why there should be more emphasize on the improvment of living conditions. This improvment could be achieved by increased intervention to integrate groups of people that are left behind due to economical or societal reasons. 
+This project was done in the context of a [data journalism class at FH Potsdam](https://uclab.fh-potsdam.de/mapping/). Throughout the semester a dataset from the [SOSEC](https://www.socialsentiment.org/sosec-dashboard/) workgroup at KIT and FZI was analysed and synthesized with other datasets for establishing geographic and economic relations between the datapoints. Central to the analysis was the definition of the "perceived crisis level", which was indicated by several proxy references (such as anger, depression, money sorrows and doomsday mood). 
+
+The perceived level of crisis has been an interesting indicator for analysing the overestimation of situations that are normally not noticable for people without this feeling. The connection between the perceived crisis level and democracy fatique or extremism, has also shown why there should be more emphasize on the improvment of living conditions. This improvment could be achieved by increased intervention to integrate groups of people that are left behind due to economical or societal reasons. 
 
 Find out more on the [website](https://elproffesore.github.io/mapping-cities-making-cities/).
 ---
@@ -50,9 +52,7 @@ This project was part of the "Tangible Climate Data" class that investigated new
 
 <b>Can we find common ground?</b>
 
-To this date the project was exhibited at the Manifest:IO Symposium for Electronic Art and New Media, the first event of the Symbiotism collective at Disko Babel.
-
-It was also exhibited at the Ars Electronica Festical 2023.
+To this date the project was exhibited at the Manifest:IO Symposium for Electronic Art and New Media, the first event of the Symbiotism collective at Disko Babel and the Ars Electronica Festical 2023.
 ---
 [2023, University Project] 
 ---
@@ -63,10 +63,6 @@ It was also exhibited at the Ars Electronica Festical 2023.
 ### Explorative Coding Practices
 
 Coding interfaces has been an interesting journey for me over the course of the last 5 years. The work on interfaces has shown me the multitude of possibilites to use them – from visual organisation of information to practices that can be quite philosophical, recreational and political. I use code as a means for exploring new ways to organize my thoughts and interact with them through graphic means paired with computational methodologies.
-
-<br>
-
-Find out more on my [Github](https://github.com/elproffesore).
 ---
 [Personal Projects]
 ---
