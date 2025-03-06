@@ -1,13 +1,13 @@
 
 ### Introduction
-Hi, my name is Philipp and I study [Design & Computation](https://www.newpractice.net/study) at Technische Universität Berlin and Universität der Künste Berlin. I’m interested in data and media visualization, interfaces and media theory. 
+Hi, my name is Philipp and I study [Design & Computation](https://www.newpractice.net/study) at Technische Universität Berlin and Universität der Künste Berlin. I’m interested in information visualization, interfaces and media theory. 
 ---
 ---
 <img src="/media/me.png"/>
 ------
 ### Forever Lost Deutschland?
 
-This project was done in the context of a [data journalism class at FH Potsdam](https://uclab.fh-potsdam.de/mapping/). Throughout the semester a dataset from the [SOSEC](https://www.socialsentiment.org/sosec-dashboard/) workgroup at KIT and FZI was analysed and synthesized with other datasets for establishing geographic and economic relations between the datapoints. Central to the analysis was the definition of the "perceived crisis level", which was indicated by several proxy references (such as anger, depression, money sorrows and doomsday mood). 
+This project was done in the context of a [data journalism class at FH Potsdam](https://uclab.fh-potsdam.de/mapping/). Throughout the semester a dataset from the [SOSEC](https://www.socialsentiment.org/sosec-dashboard/) workgroup at KIT and FZI was analyzed and synthesized with other datasets for establishing geographic and economic relations between the datapoints. Central to the analysis was the definition of the "perceived crisis level", which was indicated by several proxy references (such as anger, depression, money sorrows and doomsday mood). 
 
 The perceived level of crisis has been an interesting indicator for analysing the overestimation of situations that are normally not noticable for people without this feeling. The connection between the perceived crisis level and democracy fatique or extremism, has also shown why there should be more emphasize on the improvment of living conditions. This improvment could be achieved by increased intervention to integrate groups of people that are left behind due to economical or societal reasons. 
 
@@ -21,7 +21,7 @@ Find out more on the [website](https://elproffesore.github.io/mapping-cities-mak
 
 From Space to Place is an interdisciplinary exploration to understand the complex interplay between environement and human interventions. The projects aim was to get a more holistic approach for understanding and mapping a space. As we researched different methods for understanding the environment from an interdisciplinary perspective, we began to shift our idea of space into a more constructed notion of "place". 
 
-One of our outcomes was an installation that seeks to create an experience that allows participants to perceive the changing physical environment as a continous evolving digital representation, utilizing technologies such as pointclouds to reveal the layered transformations that places undergo. The different scenarios are accompanied with spoken memories that are connected to these places at a specific time. By highlighting the ever changing relationship between places and experience over time, our installation offers a novel perspective on how digital representations can complement and preserve a place and the human subjective gaze connected to it.
+One of our outcomes was an installation that seeks to create an experience that allows participants to perceive the changing physical environment as a continous evolving digital representation, utilizing technologies such as pointclouds to reveal the layered transformations that places undergo. The different scenarios are accompanied with spoken memories that are connected to these places at a specific time. By highlighting the ever changing relationship between places and experience over time, our installation offers a novel perspective on how digital representations can complement and preserve a place and the human subjective gaze connected to it. 
 
 Find out more on the [website](https://studio.philippproff.eu) (only desktop).
 ---
@@ -31,13 +31,12 @@ Find out more on the [website](https://studio.philippproff.eu) (only desktop).
 <img src="/media/from-space-to-place/bild1.png">
 ------
 ### Generative Syllabus Site 
-This project was done together with [Prof. Marian Dörk](https://mariandoerk.de/) from the [UCLAB](https://uclab.fh-potsdam.de/). A syllabus site is a website that contains all the information about a class. It is usually structured in a linear way and is not very flexible. The aim of this project was to create a new kind of syllabus site that would allow the students to explore the content of the class in a more playful way. It also allows students to see the process and prototypes from a past class. The structure of the project also provides the opportunity for non-programmers to create their own syllabus sites with a markdown file, which automatically generates the visualisation via the application.
+ A syllabus site is a website that contains all the information about a class. It is usually structured in a linear way and is not very flexible. The aim of this project was to create a new kind of syllabus site that would allow the students to explore the content of the class in a more playful way. It also allows students to see the process and prototypes from a past class. The structure of the project also provides the opportunity for non-programmers to create their own syllabus sites with a markdown file, which automatically generates the visualisation via the application.
 
-The code is [open source](https://github.com/uclab-potsdam/syllabus-site/)
+This project was done together with [Prof. Marian Dörk](https://mariandoerk.de/) from the [UCLAB](https://uclab.fh-potsdam.de/). The code is [open source](https://github.com/uclab-potsdam/syllabus-site/)
 
-There is an [explanatory site](https://infovis.fh-potsdam.de/syllabussite/) and sites for two classes of the FH Potsdam:<br>
-["Decolonizing Data Visualization – Visualizing Postcolonies"](https://infovis.fh-potsdam.de/decolonizing/)<br>
-["Organigrams for/from the future"](https://infovis.fh-potsdam.de/organigrams/)
+Find out more on the [explanatory site](https://infovis.fh-potsdam.de/syllabussite/).
+
 ---
 [2023, Work]
 ---
@@ -62,7 +61,7 @@ To this date the project was exhibited at the Manifest:IO Symposium for Electron
 ------
 ### Explorative Coding Practices
 
-Coding interfaces has been an interesting journey for me over the course of the last 5 years. The work on interfaces has shown me the multitude of possibilites to use them – from visual organisation of information to practices that can be quite philosophical, recreational and political. I use code as a means for exploring new ways to organize my thoughts and interact with them through graphic means paired with computational methodologies.
+Coding has been an interesting journey for me over the course of the last 5 years. The work on interfaces and visualizations has shown me the multitude of possibilites to use them – from visual organisation of information to practices that can be quite philosophical, recreational and political. I use code as a means for exploring new ways to organize my thoughts and interact with them.
 ---
 [Personal Projects]
 ---
