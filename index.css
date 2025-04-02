@@ -1,6 +1,6 @@
 /* CSS */
 :root {
-    font-family: Cormorant Garamond, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     --color: #000;
     --second: rgb(0, 0, 0,0.8);
     --accent: rgb(15, 15, 224);
@@ -21,11 +21,11 @@ body {
     position: relative;
     margin: 0;
     margin-bottom: 1em;
-    font-weight: 600;
-    font-size: 1.25em;
+    font-weight: 300;
+    font-size: 13pt;
     overflow-x: hidden;
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 25% 50% 25%;
     height: 100%;
 }
 
@@ -36,7 +36,7 @@ body {
     top: 0;
     display: flex;
     flex-direction: column;
-    font-size: 0.8em;
+    font-size: 13pt;
     text-align: left;
     margin: 2rem 0 0 2rem;
     width: 20vw;
@@ -89,25 +89,32 @@ footer {
 }
 #content{
     margin: 2rem 0rem;
-    display: grid;
-    grid-template-columns: 66% 33%;
     grid-column: 2;
     row-gap: 10em;
-}
-#content>div:nth-child(odd){
-    display: flex;
+    width: 100%;
     position: relative;
-    flex-direction: column;
-    gap: 5vh;
+}
+.entry:not(:first-child) {
+    margin: 5em 0
 }
 #content p{
-    line-height: 1.3em;
+    line-height: 1.5;
     color: var(--second);
 }
 #content a {
     color: var(--second);
     text-decoration: underline;
     font-style: italic;
+}
+.footnotes{
+    width: 40%;
+    position: absolute;
+    top: 0;
+    left: 105%;
+}
+.footnotes > p,.footnotes > a{
+    font-size: 10pt !important;
+    color: var(--accent) !important;
 }
 blockquote{
     margin-left: 0;
@@ -119,43 +126,24 @@ blockquote p{
     border-left: 0.2em solid var(--accent);
     padding-left: 0.5em;
 }
-.toggleElement{
-    position: absolute;
-    top: 0;
-    right: 0;
-    cursor: pointer;
-    color: var(--color) ;
-
-}
-.tags{
-    color: var(--color);
-}
-.media{
-    display: none;
-}
-.media,.toggleElement{
-    font-family: Arimo, sans-serif;
-    font-weight: 700;
-}
-.media>div:first-child{
-    margin: 0 0 1em 1em;
-}
-.visible{
-    display: block;
-}
 /*image enlargment*/
 img{
     cursor: zoom-in;
-    width: 90%;
+    max-width: 350px;
+    margin: auto
 }
 .images{
-    padding: 0 0 0 1em;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    gap: 1em;
     align-items: center;
 }
 .enlarged{
     position: fixed;
     height: 80vh !important;
     width: auto !important;
+    max-width: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -187,7 +175,7 @@ img{
         width: 100%;
     }
     .images{
-        padding: unset;
+        grid-template-columns: 100%;
     }
     .toggleElement{
         display: none;
@@ -202,6 +190,12 @@ img{
         grid-template-columns: 100%;
         margin-bottom: 10em;
         row-gap: 2.5vh;
+    }
+    .footnotes{
+        width: 100%;
+        position: relative;
+        margin-top: 1em;
+        left: 0;
     }
     .enlarged{
         position: fixed;

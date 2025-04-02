@@ -1,10 +1,13 @@
+My name is Philipp and I study [Design & Computation](https://www.newpractice.net/study) at Technische Universität Berlin and Universität der Künste Berlin. I’m interested in information visualization, interfaces and media theory. 
 
-### Introduction
-Hi, my name is Philipp and I study [Design & Computation](https://www.newpractice.net/study) at Technische Universität Berlin and Universität der Künste Berlin. I’m interested in information visualization, interfaces and media theory. 
+Coding has been an interesting journey for me over the course of the last 7 years. From visual organisation of information to practices that can be intrinsically philosophical, recreational and political. I use code as a means for exploring new ways to organize my thoughts and interact with them.<sup>1</sup>
 ---
+<img src="/media/recreational-programming/bild1.webp"/>
+<img src="/media/recreational-programming/bild2.webp"/>
 ---
-<img src="/media/me.png"/>
+<sup>1</sup> Find out more on my [Github](https://github.com/elproffesore).
 ------
+*University Project* | 2024
 ### Forever Lost Deutschland?
 
 This project was done in the context of a [data journalism class at FH Potsdam](https://uclab.fh-potsdam.de/mapping/). Throughout the semester a dataset from the [SOSEC](https://www.socialsentiment.org/sosec-dashboard/) workgroup at KIT and FZI was analyzed and synthesized with other datasets for establishing geographic and economic relations between the datapoints. Central to the analysis was the definition of the "perceived crisis level", which was indicated by several proxy references (such as anger, depression, money sorrows and doomsday mood). 
@@ -13,10 +16,10 @@ The perceived level of crisis has been an interesting indicator for analysing th
 
 Find out more on the [website](https://elproffesore.github.io/mapping-cities-making-cities/).
 ---
-[2024, University Project]
----
 <img src="/media/forever-lost-deutschland/bild3.png">
+<img src="/media/forever-lost-deutschland/output.gif" alt=""/>
 ------
+*University Project* | 2024
 ### From Space to Place
 
 From Space to Place is an interdisciplinary exploration to understand the complex interplay between environement and human interventions. The projects aim was to get a more holistic approach for understanding and mapping a space. As we researched different methods for understanding the environment from an interdisciplinary perspective, we began to shift our idea of space into a more constructed notion of "place". 
@@ -25,23 +28,20 @@ One of our outcomes was an installation that seeks to create an experience that 
 
 Find out more on the [website](https://studio.philippproff.eu) (only desktop).
 ---
-[2024, University Project]
----
 <img src="/media/from-space-to-place/fstp.gif" alt=""/>
 <img src="/media/from-space-to-place/bild1.png">
 ------
+*Work* | 2023
 ### Generative Syllabus Site 
- A syllabus site is a website that contains all the information about a class. It is usually structured in a linear way and is not very flexible. The aim of this project was to create a new kind of syllabus site that would allow the students to explore the content of the class in a more playful way. It also allows students to see the process and prototypes from a past class. The structure of the project also provides the opportunity for non-programmers to create their own syllabus sites with a markdown file, which automatically generates the visualisation via the application.
+ A syllabus site is a website that contains all the information about a class. It is usually structured in a linear way and is not very flexible. The aim of this project was to create a new kind of syllabus site that would allow the students to explore the content of the class in a more playful way. It also allows students to see the process and prototypes from a past class. The structure of the project also provides the opportunity for non-programmers to create their own syllabus sites with a markdown file, which automatically generates the visualisation via the application. Find out more on the [explanatory site](https://infovis.fh-potsdam.de/syllabussite/).
 
-This project was done together with [Prof. Marian Dörk](https://mariandoerk.de/) from the [UCLAB](https://uclab.fh-potsdam.de/). The code is [open source](https://github.com/uclab-potsdam/syllabus-site/)
+This project was done together with [Prof. Marian Dörk](https://mariandoerk.de/) from the [UCLAB](https://uclab.fh-potsdam.de/) and the code is [open source](https://github.com/uclab-potsdam/syllabus-site/).
 
-Find out more on the [explanatory site](https://infovis.fh-potsdam.de/syllabussite/).
 
----
-[2023, Work]
 ---
 <img src="/media/generative-syllabus-site/output.gif" />
 ------
+*University Project* | 2023
 ### Dialectics of Climate Futures 
 > Anthropogenic climate change is more relevant than ever. Despite the scientific evidence that has been gathered and substantiated in recent decades, social fronts are sharpening and polarizing. Thus, we find that the discussion about the climate crisis must not only be approached from the quantitative side, but also from the qualitative, emotional side. 
 
@@ -53,18 +53,7 @@ This project was part of the "Tangible Climate Data" class that investigated new
 
 To this date the project was exhibited at the Manifest:IO Symposium for Electronic Art and New Media, the first event of the Symbiotism collective at Disko Babel and the Ars Electronica Festical 2023.
 ---
-[2023, University Project] 
----
 <img src="/media/dialectics-of-climate-futures/bild1.webp"/>
 <img src="/media/dialectics-of-climate-futures/bild2.webp"/>
 <img src="/media/dialectics-of-climate-futures/bild3.webp"/>
 ------
-### Explorative Coding Practices
-
-Coding has been an interesting journey for me over the course of the last 5 years. The work on interfaces and visualizations has shown me the multitude of possibilites to use them – from visual organisation of information to practices that can be quite philosophical, recreational and political. I use code as a means for exploring new ways to organize my thoughts and interact with them.
----
-[Personal Projects]
----
-<img src="/media/recreational-programming/bild1.webp"/>
-<img src="/media/recreational-programming/bild2.webp"/>
-
