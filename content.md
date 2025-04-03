@@ -1,8 +1,7 @@
-Coding has been an interesting journey for me over the course of the last 7 years. From visual organisation of information to practices that can be intrinsically philosophical, recreational and political. I use code as a means for exploring new ways to organize my thoughts and interact with them.<sup>1</sup>
+Coding has been an interesting journey for me over the course of the last 7 years. From visual organisation of information to practices that can be intrinsically philosophical, recreational and political. I use code as a means for exploring new ways to organize my thoughts and interact with them.
 ---
 <img src="/media/recreational-programming/bild1.webp"/>
 ---
-Find out more on my [Github](https://github.com/elproffesore).
 ------
 *University Project* | 2024
 ### Forever Lost Deutschland?
@@ -46,12 +45,11 @@ This project was part of the "Tangible Climate Data" class that investigated new
 
 <b>Can we find common ground?</b>
 
-To this date the project was exhibited at the Manifest:IO Symposium for Electronic Art and New Media, the first event of the Symbiotism collective at Disko Babel and the Ars Electronica Festical 2023. <sup>1</sup>
+To this date the project was exhibited at the Manifest:IO Symposium for Electronic Art and New Media, the first event of the Symbiotism collective at Disko Babel and the Ars Electronica Festical 2023.
 ---
 <img src="/media/dialectics-of-climate-futures/output.gif"/>
 <img src="/media/dialectics-of-climate-futures/bild1.webp"/>
 <img src="/media/dialectics-of-climate-futures/bild2.webp"/>
 <img src="/media/dialectics-of-climate-futures/bild3.webp"/>
 ---
-The project was part of a [group exhibition](https://www.newpractice.net/ars) of the New Practice platform.
 ------
