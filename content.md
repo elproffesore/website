@@ -1,11 +1,8 @@
-My name is Philipp and I study [Design & Computation](https://www.newpractice.net/study) at Technische Universität Berlin and Universität der Künste Berlin. I’m interested in information visualization, interfaces and media theory. 
-
 Coding has been an interesting journey for me over the course of the last 7 years. From visual organisation of information to practices that can be intrinsically philosophical, recreational and political. I use code as a means for exploring new ways to organize my thoughts and interact with them.<sup>1</sup>
 ---
 <img src="/media/recreational-programming/bild1.webp"/>
-<img src="/media/recreational-programming/bild2.webp"/>
 ---
-<sup>1</sup> Find out more on my [Github](https://github.com/elproffesore).
+Find out more on my [Github](https://github.com/elproffesore).
 ------
 *University Project* | 2024
 ### Forever Lost Deutschland?
@@ -29,15 +26,13 @@ One of our outcomes was an installation that seeks to create an experience that 
 Find out more on the [website](https://studio.philippproff.eu) (only desktop).
 ---
 <img src="/media/from-space-to-place/fstp.gif" alt=""/>
-<img src="/media/from-space-to-place/bild1.png">
+<img src="/media/from-space-to-place/bild2.webp">
 ------
 *Work* | 2023
 ### Generative Syllabus Site 
  A syllabus site is a website that contains all the information about a class. It is usually structured in a linear way and is not very flexible. The aim of this project was to create a new kind of syllabus site that would allow the students to explore the content of the class in a more playful way. It also allows students to see the process and prototypes from a past class. The structure of the project also provides the opportunity for non-programmers to create their own syllabus sites with a markdown file, which automatically generates the visualisation via the application. Find out more on the [explanatory site](https://infovis.fh-potsdam.de/syllabussite/).
 
 This project was done together with [Prof. Marian Dörk](https://mariandoerk.de/) from the [UCLAB](https://uclab.fh-potsdam.de/) and the code is [open source](https://github.com/uclab-potsdam/syllabus-site/).
-
-
 ---
 <img src="/media/generative-syllabus-site/output.gif" />
 ------
@@ -51,9 +46,12 @@ This project was part of the "Tangible Climate Data" class that investigated new
 
 <b>Can we find common ground?</b>
 
-To this date the project was exhibited at the Manifest:IO Symposium for Electronic Art and New Media, the first event of the Symbiotism collective at Disko Babel and the Ars Electronica Festical 2023.
+To this date the project was exhibited at the Manifest:IO Symposium for Electronic Art and New Media, the first event of the Symbiotism collective at Disko Babel and the Ars Electronica Festical 2023. <sup>1</sup>
 ---
+<img src="/media/dialectics-of-climate-futures/output.gif"/>
 <img src="/media/dialectics-of-climate-futures/bild1.webp"/>
 <img src="/media/dialectics-of-climate-futures/bild2.webp"/>
 <img src="/media/dialectics-of-climate-futures/bild3.webp"/>
+---
+The project was part of a [group exhibition](https://www.newpractice.net/ars) of the New Practice platform.
 ------

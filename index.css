@@ -17,6 +17,9 @@ h1,h2,h3,h4,h5,h6{
     font-family: Arimo, sans-serif;
     font-weight: 700;
 }
+sup{
+    color: var(--accent)
+}
 body {
     position: relative;
     margin: 0;
@@ -25,17 +28,18 @@ body {
     font-size: 13pt;
     overflow-x: hidden;
     display: grid;
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 30% 45% 25%;
     height: 100%;
 }
 
 #menu {
-    font-family: Arimo, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     position: fixed;
     left: 0;
     top: 0;
     display: flex;
     flex-direction: column;
+    line-height: 1.5;
     font-size: 13pt;
     text-align: left;
     margin: 2rem 0 0 2rem;
@@ -67,7 +71,8 @@ tr td:nth-child(2){
 
 a {
     text-decoration: none;
-    font-weight: bold;
+    font-style: italic;
+    font-weight: normal;
     color: var(--color);
     cursor: pointer;
 }
@@ -87,12 +92,14 @@ footer {
     align-items: center;
     gap: 3em;
 }
+.entry,.footnotes,#content{
+    position: relative;
+}
 #content{
     margin: 2rem 0rem;
     grid-column: 2;
     row-gap: 10em;
     width: 100%;
-    position: relative;
 }
 .entry:not(:first-child) {
     margin: 5em 0
@@ -108,9 +115,10 @@ footer {
 }
 .footnotes{
     width: 40%;
-    position: absolute;
-    top: 0;
+    top: 0px;
+    transform: translateY(-100%);
     left: 105%;
+    position: relative;
 }
 .footnotes > p,.footnotes > a{
     font-size: 10pt !important;
@@ -129,12 +137,13 @@ blockquote p{
 /*image enlargment*/
 img{
     cursor: zoom-in;
-    max-width: 350px;
-    margin: auto
+    width: 100%;
+    max-width: 550px;
+    margin: auto;
 }
 .images{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr;
     max-width: 100%;
     gap: 1em;
     align-items: center;
@@ -164,12 +173,23 @@ img{
 
 @media screen and (max-width: 768px) {
     body {
-        font-size: 1.2em;
-        grid-template-columns: 10% 80% 10%;
+        font-size: 16pt;
+        grid-template-columns: 1fr;
+        margin: 1.5em;
         margin-bottom: 5em;
+        display: block;
     }
     #menu {
-        visibility: hidden;
+        position: unset;
+        left: unset;
+        top: unset;
+        display: unset;
+        flex-direction: unset;
+        font-size: unset;
+        text-align: unset;
+        margin: unset;
+        width: unset;
+        height: unset;
     }
     img {
         width: 100%;
@@ -177,25 +197,20 @@ img{
     .images{
         grid-template-columns: 100%;
     }
-    .toggleElement{
-        display: none;
-    }
-    .media{
-        display: block;
-    }
-    .media>div:first-child{
-        margin: 0 0 1em 0;
-    }
     #content{
         grid-template-columns: 100%;
         margin-bottom: 10em;
         row-gap: 2.5vh;
     }
     .footnotes{
+        display: none;
         width: 100%;
         position: relative;
         margin-top: 1em;
         left: 0;
+    }
+    sup{
+        display: none;
     }
     .enlarged{
         position: fixed;
