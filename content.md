@@ -1,14 +1,33 @@
-Coding has been an interesting journey for me over the course of the last 7 years. From visual organisation of information to practices that can be intrinsically philosophical, recreational and political. I use code as a means for exploring new ways to organize my thoughts and interact with them.
+
+# 
+<hr>
+<p class="quote">
+<i>A basic distinction can be made between visualizations that are representations of information already known and those that are knowledge generators capable of creating new information through their use.</i>
+<br>
+<br>
+<span style="font-size: 0.8em; text-align:left">— Johanna Drucker, <i>Graphesis: Visual Forms of Knowledge Production</i>, (p.65)</span>
+</p>
+<hr>
+<div style="display:flex; align-items:center">
+<img src="/media/me.png" style="margin-bottom:50px;">
+</div>
+
+Hi! My name is Philipp and I study Design & Computation at Technische Universität Berlin and Universität der Künste Berlin. Previously to my masters I have graduated from the Media University Stuttgart with a B.E. in Media Technologies. I'm interested in data interfaces, data visualization, interactive process interfaces, computational social science and the digital humanities. In my free time I enjoy playing table tennis, spikeball and reading books.
+------
+*Master Thesis/Academic Paper* | 2025
+### Textarium: Entangling Annotation, Abstraction and Argument
+Textarium is a web-based tool I designed to support reading and writing in a more interactive and visual way. With Textarium, users can highlight text, group keywords into concepts, and embed their annotations directly into interactive essays. The interface turns the interpretation process into tangible text visualizations, making it easier to see and share how the idiosycratic analysis unfolds. Throughout the project, I focused on creating an augmented  environment, that combines lightweight algorithmic analysis and human interpretation for exploring and communicating findings in digital texts. 
+
+During several iterations, different algorithms were tested, from simple keyword extraction to inference of word embedding models (word2vec and fastText). These iterations informed speculative interface designs, which provided key insights into the benefits of visualizing text analysis.
 ---
-<img src="/media/recreational-programming/bild1.webp"/>
----
+<img src="/media/textarium/screenshot1.png"/>
+<img src="/media/textarium/screenshot2.png"/>
+<img src="/media/textarium/screenshot3.png"/>
 ------
 *University Project* | 2024
 ### Forever Lost Deutschland?
 
 This project was done in the context of a [data journalism class at FH Potsdam](https://uclab.fh-potsdam.de/mapping/). Throughout the semester a dataset from the [SOSEC](https://www.socialsentiment.org/sosec-dashboard/) workgroup at KIT and FZI was analyzed and synthesized with other datasets for establishing geographic and economic relations between the datapoints. Central to the analysis was the definition of the "perceived crisis level", which was indicated by several proxy references (such as anger, depression, money sorrows and doomsday mood). 
-
-The perceived level of crisis has been an interesting indicator for analysing the overestimation of situations that are normally not noticable for people without this feeling. The connection between the perceived crisis level and democracy fatique or extremism, has also shown why there should be more emphasize on the improvment of living conditions. This improvment could be achieved by increased intervention to integrate groups of people that are left behind due to economical or societal reasons. 
 
 Find out more on the [website](https://elproffesore.github.io/mapping-cities-making-cities/).
 ---
@@ -18,18 +37,16 @@ Find out more on the [website](https://elproffesore.github.io/mapping-cities-mak
 *University Project* | 2024
 ### From Space to Place
 
-From Space to Place is an interdisciplinary exploration to understand the complex interplay between environement and human interventions. The projects aim was to get a more holistic approach for understanding and mapping a space. As we researched different methods for understanding the environment from an interdisciplinary perspective, we began to shift our idea of space into a more constructed notion of "place". 
+From Space to Place is an interdisciplinary exploration to understand the complex interplay between environement and human interventions. The projects aim was to get a more holistic approach for understanding and mapping a space. As we researched different methods for understanding the environment from an interdisciplinary perspective, we began to shift our idea of space into a more constructed notion of "place". One of our outcomes was an installation that seeks to create an experience that allows participants to perceive the changing physical environment as a continous evolving digital representation, utilizing technologies such as pointclouds to reveal the layered transformations that places undergo.
 
-One of our outcomes was an installation that seeks to create an experience that allows participants to perceive the changing physical environment as a continous evolving digital representation, utilizing technologies such as pointclouds to reveal the layered transformations that places undergo. The different scenarios are accompanied with spoken memories that are connected to these places at a specific time. By highlighting the ever changing relationship between places and experience over time, our installation offers a novel perspective on how digital representations can complement and preserve a place and the human subjective gaze connected to it. 
-
-Find out more on the [website](https://studio.philippproff.eu) (only desktop).
+Find out more on the [website](https://studio.philippproff.eu) (only desktop, sorry!).
 ---
 <img src="/media/from-space-to-place/fstp.gif" alt=""/>
 <img src="/media/from-space-to-place/bild2.webp">
 ------
 *Work* | 2023
 ### Generative Syllabus Site 
- A syllabus site is a website that contains all the information about a class. It is usually structured in a linear way and is not very flexible. The aim of this project was to create a new kind of syllabus site that would allow the students to explore the content of the class in a more playful way. It also allows students to see the process and prototypes from a past class. The structure of the project also provides the opportunity for non-programmers to create their own syllabus sites with a markdown file, which automatically generates the visualisation via the application. Find out more on the [explanatory site](https://infovis.fh-potsdam.de/syllabussite/).
+A syllabus site is a website that contains all the information about a class. It is usually structured in a linear way and is not very flexible. The aim of this project was to create a new kind of syllabus site that would allow the students to explore the content of the class in a more playful way. It also allows students to see the process and prototypes from a past class. The structure of the project also provides the opportunity for non-programmers to create their own syllabus sites with a markdown file, which automatically generates the visualisation via the application. Find out more on the [explanatory site](https://infovis.fh-potsdam.de/syllabussite/).
 
 This project was done together with [Prof. Marian Dörk](https://mariandoerk.de/) from the [UCLAB](https://uclab.fh-potsdam.de/) and the code is [open source](https://github.com/uclab-potsdam/syllabus-site/).
 ---
@@ -39,9 +56,7 @@ This project was done together with [Prof. Marian Dörk](https://mariandoerk.de/
 ### Dialectics of Climate Futures 
 > Anthropogenic climate change is more relevant than ever. Despite the scientific evidence that has been gathered and substantiated in recent decades, social fronts are sharpening and polarizing. Thus, we find that the discussion about the climate crisis must not only be approached from the quantitative side, but also from the qualitative, emotional side. 
 
-In addition to dealing with the topic using the conventional methods of economics and the natural sciences, the art and design disciplines must also assume their responsibility. In this context, the development of narratives and visions, as well as the presentation of complex the representation of complex interrelationships are of central importance. Through dialectics - the method of gaining knowledge through logical argumentation along opposing positions - we want to get out of our usual filter bubbles.
-
-This project was part of the "Tangible Climate Data" class that investigated new ways to question and visualize the complex topic of climate change. "Dialectics of Climate Futures" wants to clarify the interwoven relationships and initiate a discourse. We use an emotionally framed artificial intelligence as a means to get in touch with opposing emotional states. Through the process of the interaction we hope to break out of thought patterns and provoke thought experiments. The goal is to ask and discuss the question:
+In addition to dealing with the topic using the conventional methods of economics and the natural sciences, the art and design disciplines must also assume their responsibility. In this context, the development of narratives and visions, as well as the presentation of complex interrelationships are of central importance. Through dialectics - the method of gaining knowledge through logical argumentation along opposing positions - we want to get out of our usual filter bubbles. "Dialectics of Climate Futures" wants to clarify the interwoven relationships and initiate a discourse. We use an emotionally framed artificial intelligence as a means to get in touch with opposing emotional states. Through the process of the interaction we hope to break out of thought patterns and provoke thought experiments. The goal is to ask and discuss the question:
 
 <b>Can we find common ground?</b>
 

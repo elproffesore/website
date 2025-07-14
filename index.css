@@ -25,7 +25,7 @@ body {
     margin: 0;
     margin-bottom: 1em;
     font-weight: 300;
-    font-size: 13pt;
+    font-size: 1.2rem;
     overflow-x: hidden;
     display: grid;
     grid-template-columns: 30% 45% 25%;
@@ -168,6 +168,10 @@ img{
     visibility: hidden;
     background-color: rgba(255,255,255);
     z-index: 1;
+}
+.quote {
+    text-align: center;
+    padding: 30px 50px;
 }
 
 

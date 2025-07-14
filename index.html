@@ -14,12 +14,6 @@
 </head>
 
 <body>
-    <div id="menu">
-        <h3>Philipp Proff</h3>
-        <p>Hi, I study Design & Computation at Technische Universität Berlin and Universität der Künste Berlin.</p>
-        <p>My interest lays in information visualization, interfaces and media theory.</p>
-        <div id="refs"></div>
-    </div>
     <div id="content"></div>
     <div id="background"></div>
     <footer>
@@ -44,13 +38,13 @@
                     content.prepend(textElement)
                     document.getElementById('content').appendChild(content)
                     let title = textElement.querySelector('h3')
-                    if(title){
-                        title.id = title.innerHTML.toLocaleLowerCase().replaceAll(' ', '-')
-                        let menuElement = document.createElement('a')
-                        menuElement.href = '#' + title.id
-                        menuElement.innerHTML = siteIndex > 0 ? "⇢ " + title.innerHTML : title.innerHTML
-                        document.getElementById('refs').appendChild(menuElement)
-                    }
+                    // if(title){
+                    //     title.id = title.innerHTML.toLocaleLowerCase().replaceAll(' ', '-')
+                    //     let menuElement = document.createElement('a')
+                    //     menuElement.href = '#' + title.id
+                    //     menuElement.innerHTML = siteIndex > 0 ? "⇢ " + title.innerHTML : title.innerHTML
+                    //     document.getElementById('refs').appendChild(menuElement)
+                    // }
 
                     if (components.length > 1) {
                             //images
