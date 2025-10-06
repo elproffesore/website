@@ -19,6 +19,8 @@ Hi! My name is Philipp and I study Design & Computation at Technische Universit√
 Textarium is a web-based tool I designed to support reading and writing in a more interactive and visual way. With Textarium, users can highlight text, group keywords into concepts, and embed their annotations directly into interactive essays. The interface turns the interpretation process into tangible text visualizations, making it easier to see and share how the idiosycratic analysis unfolds. Throughout the project, I focused on creating an augmented  environment, that combines lightweight algorithmic analysis and human interpretation for exploring and communicating findings in digital texts. 
 
 During several iterations, different algorithms were tested, from simple keyword extraction to inference of word embedding models (word2vec and fastText). These iterations informed speculative interface designs, which provided key insights into the benefits of visualizing text analysis.
+
+Test out the prototype on [[textarium.philippproff.eu](https://elproffesore.github.io/textarium/txt/#latour)](https://elproffesore.github.io/textarium/txt/#latour&annotations=!5_Networks_of_Design(0.67,0.48,89,161,79)) and read the [academic paper](https://arxiv.org/abs/2509.13191) (preprint).
 ---
 <img src="/media/textarium/screenshot1.png"/>
 <img src="/media/textarium/screenshot2.png"/>
