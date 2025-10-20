@@ -20,7 +20,7 @@ Textarium is a web-based tool I designed to support reading and writing in a mor
 
 During several iterations, different algorithms were tested, from simple keyword extraction to inference of word embedding models (word2vec and fastText). These iterations informed speculative interface designs, which provided key insights into the benefits of visualizing text analysis.
 
-Test out the prototype on [https://elproffesore.github.io/textarium/txt/#latour](https://elproffesore.github.io/textarium/txt/#latour&annotations=!5_Networks_of_Design(0.67,0.48,89,161,79)) and read the [academic paper](https://arxiv.org/abs/2509.13191) (preprint).
+Test out the prototype on [https://uclab.fh-potsdam.de/textarium/](https://uclab.fh-potsdam.de/textarium/) and read the [academic paper](https://arxiv.org/abs/2509.13191) (preprint) which will be presented on the [IEEE Vis 2025](https://vis4dh.dbvis.de/accepted/).
 ---
 <img src="/media/textarium/screenshot1.png"/>
 <img src="/media/textarium/screenshot2.png"/>
