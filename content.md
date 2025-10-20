@@ -1,15 +1,7 @@
 
 # 
-<hr>
-<p class="quote">
-<i>A basic distinction can be made between visualizations that are representations of information already known and those that are knowledge generators capable of creating new information through their use.</i>
-<br>
-<br>
-<span style="font-size: 0.8em; text-align:left">— Johanna Drucker, <i>Graphesis: Visual Forms of Knowledge Production</i>, (p.65)</span>
-</p>
-<hr>
 <div style="display:flex; align-items:center">
-<img src="/media/me.png" style="margin-bottom:50px;">
+<img src="/media/me.png"  style="margin-bottom:50px;max-width:450px"/>
 </div>
 
 Hi! My name is Philipp and I'm a designer and creative technologist. I have studied Design & Computation at Technical University Berlin and Universität der Berlin University of the Arts till 2025. Previously to my masters I have graduated from the Media University Stuttgart with a B.E. in Media Technologies. I'm interested in data interfaces, data visualization, node-based interfaces, computational social science and the digital humanities. In my free time I enjoy playing table tennis, spikeball and reading books.
