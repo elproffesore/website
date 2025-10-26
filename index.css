@@ -1,24 +1,55 @@
 /* CSS */
+@font-face {
+    font-family: "Atkinson";
+    src: url("fonts/AtkinsonHyperlegibleNextVF-Variable.woff2") format("woff2-variations");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AtkinsonMono";
+    src: url("fonts/AtkinsonHyperlegibleMono-Medium.woff2") format("woff2-variations");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AtkinsonMono";
+    src: url("fonts/AtkinsonHyperlegibleMono-Bold.woff2") format("woff2-variations");
+    font-style: normal;
+    font-weight: bold;
+}
 :root {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     --color: #000;
-    --second: rgb(0, 0, 0,0.8);
+    --second: rgb(0, 0, 0, 0.8);
     --accent: rgb(15, 15, 224);
 }
-html, body{
+html,
+body {
     scroll-behavior: smooth;
 }
-p,a,h1,h2,h3,h4,h5,h6{
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: var(--color);
     margin-top: 0;
     padding-top: 0;
 }
-h1,h2,h3,h4,h5,h6{
-    font-family: Arimo, sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Atkinson, sans-serif;
     font-weight: 700;
 }
-sup{
-    color: var(--accent)
+sup {
+    color: var(--accent);
 }
 body {
     position: relative;
@@ -28,12 +59,12 @@ body {
     font-size: 1.2rem;
     overflow-x: hidden;
     display: grid;
-    grid-template-columns: 30% 45% 25%;
+    grid-template-columns: 25% 50% 25%;
     height: 100%;
 }
 
 #menu {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Atkionson, "Times New Roman", Times, serif;
     position: fixed;
     left: 0;
     top: 0;
@@ -46,24 +77,23 @@ body {
     width: 20vw;
     height: 100vh;
 }
-#refs{
+#refs {
     display: flex;
     flex-direction: column;
 }
 
-#specs{
+#specs {
     color: var(--second);
-    font-family: Arimo;  
+    font-family: Arimo;
     font-size: 0.7em;
     margin-top: auto;
     margin-bottom: 50px;
 }
-#specs td{
+#specs td {
     vertical-align: top;
 }
-tr td:nth-child(2){
+tr td:nth-child(2) {
     padding-left: 2em;
-
 }
 #menu button {
     border: none;
@@ -92,19 +122,21 @@ footer {
     align-items: center;
     gap: 3em;
 }
-.entry,.footnotes,#content{
+.entry,
+.footnotes,
+#content {
     position: relative;
 }
-#content{
+#content {
     margin: 2rem 0rem;
     grid-column: 2;
     row-gap: 10em;
     width: 100%;
 }
 .entry:not(:first-child) {
-    margin: 5em 0
+    margin: 5em 0;
 }
-#content p{
+#content p {
     line-height: 1.5;
     color: var(--second);
 }
@@ -113,21 +145,22 @@ footer {
     text-decoration: underline;
     font-style: italic;
 }
-.footnotes{
+.footnotes {
     width: 40%;
     top: 0px;
     transform: translateY(-100%);
     left: 105%;
     position: relative;
 }
-.footnotes > p,.footnotes > a{
+.footnotes > p,
+.footnotes > a {
     font-size: 10pt !important;
     color: var(--accent) !important;
 }
-blockquote{
+blockquote {
     margin-left: 0;
 }
-blockquote p{
+blockquote p {
     font-style: italic;
     font-weight: 700;
     color: var(--accent) !important;
@@ -135,20 +168,20 @@ blockquote p{
     padding-left: 0.5em;
 }
 /*image enlargment*/
-img{
+img {
     cursor: zoom-in;
     width: 100%;
     max-width: 550px;
     margin: auto;
 }
-.images{
+.images {
     display: grid;
     grid-template-columns: 1fr;
     max-width: 100%;
     gap: 1em;
     align-items: center;
 }
-.enlarged{
+.enlarged {
     position: fixed;
     height: 80vh !important;
     width: auto !important;
@@ -159,21 +192,20 @@ img{
     cursor: zoom-out;
     z-index: 2;
 }
-#background{
+#background {
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
     visibility: hidden;
-    background-color: rgba(255,255,255);
+    background-color: rgba(255, 255, 255);
     z-index: 1;
 }
 .quote {
     text-align: center;
     padding: 30px 50px;
 }
-
 
 @media screen and (max-width: 768px) {
     body {
@@ -198,30 +230,30 @@ img{
     img {
         width: 100%;
     }
-    .images{
+    .images {
         grid-template-columns: 100%;
     }
-    #content{
+    #content {
         grid-template-columns: 100%;
         margin-bottom: 10em;
         row-gap: 2.5vh;
     }
-    .footnotes{
+    .footnotes {
         display: none;
         width: 100%;
         position: relative;
         margin-top: 1em;
         left: 0;
     }
-    sup{
+    sup {
         display: none;
     }
-    .enlarged{
+    .enlarged {
         position: fixed;
         height: auto !important;
         width: 100vw !important;
     }
-    footer{
+    footer {
         flex-direction: column;
         gap: 1em;
         font-size: 1.1em;

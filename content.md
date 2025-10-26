@@ -1,22 +1,42 @@
 
 # 
 <div style="display:flex; align-items:center">
-<img src="/media/me.png"  style="margin-bottom:50px;max-width:450px"/>
+<img src="/media/me.webp"  style="margin-bottom:50px;max-width:450px"/>
 </div>
 
-Hi! My name is Philipp and I'm a designer and creative technologist. I have studied Design & Computation at Technical University Berlin and Universität der Berlin University of the Arts till 2025. Previously to my masters I have graduated from the Media University Stuttgart with a B.E. in Media Technologies. I'm interested in data interfaces, data visualization, node-based interfaces, computational social science and the digital humanities. In my free time I enjoy playing table tennis, spikeball and reading books.
+Hi! My name is Philipp – I'm a designer and creative technologist. I have an M.A. Design & Computation (TU Berlin and UdK Berlin) and a B.E. in Media Technologies (Media University Stuttgart). My interests include data interfaces, data visualizations, node-based interfaces, computational social science and the digital humanities. In my free time I enjoy playing table tennis, spikeball and reading books.
+---
+<img src="/media/me/screenshot1.webp"/>
+------
+*Work* | 2025
+### SPLEE / Hyper Visual Times
+Description coming soon...
+---
+<img src="/media/splee/screenshot1.webp"/>
+<img src="/media/splee/screenshot2.webp"/>   
+<img src="/media/splee/screenshot3.webp"/>
 ------
 *Master Thesis/Academic Paper* | 2025
 ### Textarium: Entangling Annotation, Abstraction and Argument
 Textarium is a web-based tool I designed to support reading and writing in a more interactive and visual way. With Textarium, users can highlight text, group keywords into concepts, and embed their annotations directly into interactive essays. The interface turns the interpretation process into tangible text visualizations, making it easier to see and share how the idiosycratic analysis unfolds. Throughout the project, I focused on creating an augmented  environment, that combines lightweight algorithmic analysis and human interpretation for exploring and communicating findings in digital texts. 
 
-During several iterations, different algorithms were tested, from simple keyword extraction to inference of word embedding models (word2vec and fastText). These iterations informed speculative interface designs, which provided key insights into the benefits of visualizing text analysis.
+In additional iterations together with [Marian Dörk](https://mariandoerk.de/) we explored possible different design directions for the tool, focusing on the interplay between communication and visualization. As a result, we developed a small prototype that allows users to visually analyze text passages and embed their annotations in an interactive storytelling format.
 
 Test out the prototype on [https://uclab.fh-potsdam.de/textarium/](https://uclab.fh-potsdam.de/textarium/) and read the [academic paper](https://arxiv.org/abs/2509.13191) (preprint) which will be presented on the [IEEE Vis 2025](https://vis4dh.dbvis.de/accepted/).
+
 ---
-<img src="/media/textarium/screenshot1.png"/>
-<img src="/media/textarium/screenshot2.png"/>
-<img src="/media/textarium/screenshot3.png"/>
+<img src="/media/textarium/screenshot1.webp"/>
+<img src="/media/textarium/screenshot3.webp"/>
+
+------
+*Work* | 2025
+### Website Studium Planetare
+Description coming soon...
+[Website](https://studiumplanetare.de)
+---
+<img src="/media/studium-planetare/screenshot1.webp"/>
+<img src="/media/studium-planetare/screenshot2.webp"/>   
+<img src="/media/studium-planetare/screenshot3.webp"/>
 ------
 *University Project* | 2024
 ### Forever Lost Deutschland?
@@ -25,8 +45,9 @@ This project was done in the context of a [data journalism class at FH Potsdam](
 
 Find out more on the [website](https://elproffesore.github.io/mapping-cities-making-cities/).
 ---
-<img src="/media/forever-lost-deutschland/bild3.png">
-<img src="/media/forever-lost-deutschland/output.gif" alt=""/>
+<img src="/media/forever-lost-deutschland/screenshot1.webp">
+<img src="/media/forever-lost-deutschland/screenshot2.webp" alt=""/>
+<img src="/media/forever-lost-deutschland/screenshot3.webp" alt=""/>
 ------
 *University Project* | 2024
 ### From Space to Place
@@ -36,7 +57,8 @@ From Space to Place is an interdisciplinary exploration to understand the comple
 Find out more on the [website](https://studio.philippproff.eu) (only desktop, sorry!).
 ---
 <img src="/media/from-space-to-place/fstp.gif" alt=""/>
-<img src="/media/from-space-to-place/bild2.webp">
+<img src="/media/from-space-to-place/screenshot1.webp">
+<img src="/media/from-space-to-place/screenshot2.webp">
 ------
 *Work* | 2023
 ### Generative Syllabus Site 
@@ -44,7 +66,10 @@ A syllabus site is a website that contains all the information about a class. It
 
 This project was done together with [Prof. Marian Dörk](https://mariandoerk.de/) from the [UCLAB](https://uclab.fh-potsdam.de/) and the code is [open source](https://github.com/uclab-potsdam/syllabus-site/).
 ---
+<img src="/media/generative-syllabus-site/screenshot1.webp" />
+<img src="/media/generative-syllabus-site/screenshot2.webp" />
 <img src="/media/generative-syllabus-site/output.gif" />
+
 ------
 *University Project* | 2023
 ### Dialectics of Climate Futures 
