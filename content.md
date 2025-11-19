@@ -12,10 +12,11 @@ Hyper Visual Times contains a series of reflections on the circulation and consu
 
 [Website](https://hvts.francescamorini.com/) 
 
-*Technologies/Tools:* Svelte, D3.js, Python, Figma
+Technologies: SvelteKit, D3.js, Python<br>
+*Tools:* Figma, Jupyter Notebook
 ---
-<img src="/media/splee/screenshot2.webp"/>   
-<img src="/media/splee/screenshot3.webp"/>
+<img src="/media/splee/screenshot1.webp"/>   
+<img src="/media/splee/screenshot2.webp"/>
 ------
 *Master Thesis/Academic Paper* | 2025
 ### Textarium: Entangling Annotation, Abstraction and Argument
@@ -25,10 +26,10 @@ Textarium is a web-based tool to support reading and writing in a more interacti
 
 [Paper (preprint)](https://arxiv.org/abs/2509.13191) @ [IEEE Vis 2025](https://vis4dh.dbvis.de/accepted/)
 
-*Technologies/Tools:* Svelte, D3.js
+*Technologies:* Vanilla JS
 ---
 <img src="/media/textarium/screenshot1.webp"/>
-<img src="/media/textarium/screenshot3.webp"/>
+<img src="/media/textarium/screenshot2.webp"/>
 
 ------
 *Work* | 2025
@@ -37,7 +38,8 @@ Studium Planetare is a two-year, student-initiated and led pilot project by [Kla
 
 [Website](https://studiumplanetare.de)
 
-*Technologies/Tools:* Svelte, PHP (Kirby), Figma
+*Technologies:* Svelte, PHP (Kirby) <br>
+*Tools:* Figma
 ---
 <img src="/media/studium-planetare/screenshot1.webp"/>
 <img src="/media/studium-planetare/screenshot2.webp"/>   
@@ -50,7 +52,8 @@ Studium Planetare is a two-year, student-initiated and led pilot project by [Kla
 
 [Website](https://elproffesore.github.io/mapping-cities-making-cities/)
 
-*Technologies/Tools:* Vue, D3.js, Figma
+*Technologies:* Vue, D3.js<br>
+*Tools:* Figma
 ---
 <img src="/media/forever-lost-deutschland/screenshot1.webp">
 <img src="/media/forever-lost-deutschland/screenshot2.webp" alt=""/>
@@ -63,7 +66,8 @@ From Space to Place is an interdisciplinary exploration to understand the comple
 
 [Website](https://studio.philippproff.eu) (desktop only)
 
-*Technologies/Tools:* (Website) Vue, D3.js, (Installation) Touchdesigner
+*Technologies:* Vue, D3.js<br>
+*Tools:* Touchdesigner
 ---
 <img src="/media/from-space-to-place/fstp.gif" alt=""/>
 <img src="/media/from-space-to-place/screenshot1.webp">
@@ -78,9 +82,8 @@ This project was done together with [Prof. Marian Dörk](https://mariandoerk.de/
 
 [OpenSource Code](https://github.com/uclab-potsdam/syllabus-site/)
 
-*Technologies/Tools:* Vanilla JS, Markdown
+*Technologies:* Vanilla JS
 ---
-<img src="/media/generative-syllabus-site/screenshot1.webp" />
 <img src="/media/generative-syllabus-site/screenshot2.webp" />
 <img src="/media/generative-syllabus-site/output.gif" />
 
@@ -93,11 +96,10 @@ In addition to dealing with the topic using the conventional methods of economic
 
 Dialectics of Climate Futures was exhibited at the Ars Electronica Festival 2023.
 
-*Technologies/Tools:* Vue JS, D3.js
+*Technologies:* Vue, D3.js
 ---
 <img src="/media/dialectics-of-climate-futures/output.gif"/>
 <img src="/media/dialectics-of-climate-futures/bild1.webp"/>
 <img src="/media/dialectics-of-climate-futures/bild2.webp"/>
-<img src="/media/dialectics-of-climate-futures/bild3.webp"/>
 ---
 ------
