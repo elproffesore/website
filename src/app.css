@@ -1,27 +1,35 @@
+@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* CSS */
 @font-face {
     font-family: "Atkinson";
-    src: url("fonts/AtkinsonHyperlegibleNextVF-Variable.woff2") format("woff2-variations");
-    font-style: normal;
+    src: url("fonts/AtkinsonHyperlegible-VariableFont.woff2") format("woff2-variations");
+}
+@font-face {
+    font-family: "IBMPlexSans";
+    src: url('fonts/IBMPlexSans-VariableFont.ttf') format('truetype-variations');
 }
 
 @font-face {
     font-family: "AtkinsonMono";
-    src: url("fonts/AtkinsonHyperlegibleMono-Medium.woff2") format("woff2-variations");
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "AtkinsonMono";
-    src: url("fonts/AtkinsonHyperlegibleMono-Bold.woff2") format("woff2-variations");
+    src: url("fonts/AtkinsonHyperlegibleMono-Bold.woff2") format("woff2");
     font-style: normal;
     font-weight: bold;
 }
-:root {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    --color: #000;
-    --second: rgb(0, 0, 0, 0.8);
-    --accent: rgb(15, 15, 224);
+@theme {
+    /* Typography */
+    --font-header: "AtkinsonMono", "sans-serif";
+    --font-subheader: "IBMPlexSans", "sans-serif";
+    --font-text: "Atkinson", "sans-serif";
+
+    /* Colors */
+    --color-bg: #F8F8F8;
+    --color-card: #ECEAE4;
+    --color-text: #1B191C;
+    --color-accent: #FF6532;
 }
 html,
 body {
@@ -64,7 +72,7 @@ body {
 }
 
 #menu {
-    font-family: Atkionson, "Times New Roman", Times, serif;
+    font-family: Atkinson, "Times New Roman", Times, serif;
     position: fixed;
     left: 0;
     top: 0;
