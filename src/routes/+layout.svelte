@@ -15,7 +15,6 @@
 	<h1 class="col-start-1 col-span-12 md:col-start-3 md:col-span-5 mb-8">
 		<a href={LinkHandler("/")}>Projects</a> / <a href={LinkHandler("/info")}>Info</a>
 	</h1>
-	<div class="z-10 bg-background h-10 md:h-0"></div>
 	{@render children()}
 </div>
 

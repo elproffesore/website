@@ -30,8 +30,8 @@
     })
 </script>
 
-<div class="grid grid-cols-6 transition-all my-4">
-    <div class="row-start-1 h-16 -mt-16 md:hidden bg-background z-4 sticky top-0"></div>
+<div class="grid grid-cols-6 transition-all mb-4">
+    <div class="row-start-1 hidden md:hidden bg-background z-4 sticky top-0" class:h-16={expanded} class:-mt-16={expanded} class:block={expanded}></div>
 	<button onclick={() => (expanded = !expanded)} class="z-5 border text-left px-4 bg-card-background border-card-border col-start-1 col-span-6 md:col-start-2 md:col-span-5 grid grid-cols-3 bg-background py-4 sticky top-0">
         <div class="col-start-1 col-span-3 row-start-1">    
 			<h1>{project}</h1>
