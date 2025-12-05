@@ -37,7 +37,7 @@
 			<h2>{type}</h2>
 		</div>
         <div class="col-start-3 col-span-1 row-start-1 flex justify-end items-center" >
-            <img src={LinkHandler("icons/ui-scroll.svg")} class="w-6 h-6 transition-transform" alt="" class:rotate-180={expanded}>
+            <img src={LinkHandler("/icons/ui-scroll.svg")} class="w-6 h-6 transition-transform" alt="" class:rotate-180={expanded}>
         </div>
 	</button>
 	<div class="h-0 col-span-6 grid grid-cols-6  overflow-hidden" class:h-full={expanded}>
@@ -54,7 +54,7 @@
 		>
 			{#each technologies as tech}
 				<div class="flex gap-2 px-2 py-1 items-center">
-					<img src={LinkHandler(`icons/${tech.icon}.svg`)} alt={tech.name} class="w-6 h-6" loading="lazy" />
+					<img src={LinkHandler(`/icons/${tech.icon}.svg`)} alt={tech.name} class="w-6 h-6" loading="lazy" />
 					<p class="">{tech.name}</p>
 				</div>
 			{/each}
