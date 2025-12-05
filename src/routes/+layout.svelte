@@ -1,6 +1,6 @@
 <script>
 	import { LinkHandler } from '$lib/utils/linkhandler.svelte';
-import '../app.css';
+	import '../app.css';
 
 	let { children } = $props();
 </script>

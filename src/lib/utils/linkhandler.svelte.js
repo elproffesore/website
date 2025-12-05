@@ -9,5 +9,5 @@ export const LinkHandler = (link) => {
     return base
   }
 
-  return base + link
+  return link
 }
