@@ -12,3 +12,6 @@
 		computational social science and the digital humanities. In my free time I enjoy playing table
 		tennis, spikeball and reading books.
 	</p>
+        <div>
+                <a href="https://github.com/elproffesore">Github</a>
+        </div>

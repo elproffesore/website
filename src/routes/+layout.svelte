@@ -12,9 +12,10 @@
 	<title>Portfolio | Philipp Proff</title>
 </svelte:head>
 <div class="bg-background text-text min-h-screen min-w-screen p-2 grid grid-cols-12">
-	<h1 class="col-start-2 col-span-12 md:col-start-3 md:col-span-5 mb-8">
+	<h1 class="col-start-1 col-span-12 md:col-start-3 md:col-span-5 mb-8">
 		<a href={LinkHandler("/")}>Projects</a> / <a href={LinkHandler("/info")}>Info</a>
 	</h1>
+	<div class="z-10 bg-background h-10 md:h-0"></div>
 	{@render children()}
 </div>
 

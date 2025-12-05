@@ -31,8 +31,9 @@
 </script>
 
 <div class="grid grid-cols-6 transition-all my-4">
-	<button onclick={() => (expanded = !expanded)} class="border text-left px-4 bg-card-background border-card-border col-start-2 col-span-5 grid grid-cols-3 bg-background py-4 sticky top-0">
-		<div class="col-start-1 col-span-3 row-start-1">
+    <div class="row-start-1 h-16 -mt-16 md:hidden bg-background z-4 sticky top-0"></div>
+	<button onclick={() => (expanded = !expanded)} class="z-5 border text-left px-4 bg-card-background border-card-border col-start-1 col-span-6 md:col-start-2 md:col-span-5 grid grid-cols-3 bg-background py-4 sticky top-0">
+        <div class="col-start-1 col-span-3 row-start-1">    
 			<h1>{project}</h1>
 			<h2>{type}</h2>
 		</div>
@@ -41,7 +42,7 @@
         </div>
 	</button>
 	<div class="h-0 col-span-6 grid grid-cols-6  overflow-hidden" class:h-full={expanded}>
-		<div class="col-start-2 col-span-5 md:col-start-2 md:col-span-4 p-4 bg-card-background border border-card-border">
+		<div class="col-start-1 col-span-6 md:col-start-2 md:col-span-4 p-4 bg-card-background border border-card-border">
 			<div>
 				<h3>Context</h3>
 				<p class="mt-2">
@@ -50,7 +51,7 @@
 			</div>
 		</div>
 		<div
-			class="col-start-2 col-span-5 md:col-start-6 md:col-span-1 flex md:flex-col flex-wrap gap-2 p-4 bg-card-background border border-card-border"
+			class="col-start-1 col-span-6 md:col-start-6 md:col-span-1 flex md:flex-col flex-wrap gap-2 p-4 bg-card-background border border-card-border"
 		>
 			{#each technologies as tech}
 				<div class="flex gap-2 px-2 py-1 items-center">
@@ -73,7 +74,7 @@
 		</div>
 		<button
 			onclick={() => (documentationOpen = !documentationOpen)}
-			class="col-start-2 col-span-5 flex flex-col gap-2 p-4 bg-card-background border border-card-border"
+			class="col-start-1 col-span-6 md:col-start-2 md:col-span-5 flex flex-col gap-2 p-4 bg-card-background border border-card-border"
 		>
 			<div class="text-left">
 				<h3>Documentation</h3>
