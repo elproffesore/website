@@ -28,6 +28,10 @@
     --text-md: 1.15rem;
     --text-lg: 1.2rem;
     --text-xl: 1.30rem;
+    --text-sm-mobile: 0.85rem;
+    --text-md-mobile: 0.95rem;
+    --text-lg-mobile: 1.05rem;
+    --text-xl-mobile: 1.15rem;
 
 }
 @layer base{
@@ -36,16 +40,16 @@
         @apply overscroll-y-none scroll-smooth m-0 font-sans;
     }
     h1{
-        @apply text-xl font-bold text-black;
+        @apply text-xl-mobile md:text-xl font-bold text-black;
     }
     h2{
-        @apply text-lg font-bold text-accent;
+        @apply text-lg-mobile md:text-lg font-bold text-accent;
     }
     h3{
-        @apply text-sm font-bold text-gray;
+        @apply text-sm-mobile md:text-sm font-bold text-gray;
     }
     p{
-        @apply text-sm text-black;
+        @apply text-sm-mobile md:text-sm text-black;
     }
     a {
         @apply text-black underline;
