@@ -13,7 +13,7 @@
 </svelte:head>
 <div class="bg-background text-text min-h-screen min-w-screen p-2 grid grid-cols-12">
 	<h1 class="col-start-1 col-span-12 md:col-start-3 md:col-span-5 mb-8">
-		<a href={LinkHandler("/")}>Projects</a> / <a href={LinkHandler("/info")}>Info</a>
+		<a href={LinkHandler("/")}>Projects</a> / <a href={LinkHandler("/info")}>About</a>
 	</h1>
 	{@render children()}
 </div>
