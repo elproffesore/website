@@ -1,24 +1,29 @@
+@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /* CSS */
 @font-face {
-    font-family: "Atkinson";
-    src: url("fonts/AtkinsonHyperlegibleNextVF-Variable.woff2") format("woff2-variations");
+    font-family: "Inter";
+    src: url("fonts/Inter_18pt-Medium.ttf") format("truetype");
     font-style: normal;
+    font-weight: medium;
 }
 
 @font-face {
-    font-family: "AtkinsonMono";
-    src: url("fonts/AtkinsonHyperlegibleMono-Medium.woff2") format("woff2-variations");
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "AtkinsonMono";
-    src: url("fonts/AtkinsonHyperlegibleMono-Bold.woff2") format("woff2-variations");
+    font-family: "Inter";
+    src: url("fonts/Inter_18pt-Bold.ttf") format("woff2-variations");
     font-style: normal;
     font-weight: bold;
 }
-:root {
-    font-family: Georgia, "Times New Roman", Times, serif;
+@theme {
+    --font-sans = "Inter", sans-serif;
+    --color: #000;
+    --second: rgb(0, 0, 0, 0.8);
+    --accent: rgb(15, 15, 224);
+
+}:root {
+    font-family: Inter;
     --color: #000;
     --second: rgb(0, 0, 0, 0.8);
     --accent: rgb(15, 15, 224);
