@@ -10,8 +10,6 @@ University Project
 ---
 [{"name":"Giuliana Mei"}]
 ---
-<img src="/media/project-forever-lost-deutschland/screenshot1.webp">
-<img src="/media/project-forever-lost-deutschland/screenshot2.webp" alt=""/>
-<img src="/media/project-forever-lost-deutschland/screenshot3.webp" alt=""/>
+["/media/project-forever-lost-deutschland/screenshot1.webp", "/media/project-forever-lost-deutschland/screenshot2.webp", "/media/project-forever-lost-deutschland/screenshot3.webp"]
 --- 
 [{"name":"Website","url":"https://elproffesore.github.io/mapping-cities-making-cities/"}]

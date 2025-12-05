@@ -10,8 +10,6 @@ Studium Planetare is a two-year, student-initiated and led pilot project by [Kla
 ---
 [{"name":"Giuliana Mei"}]
 ---
-<img src="/media/project-studium-planetare/screenshot1.webp"/>
-<img src="/media/project-studium-planetare/screenshot2.webp"/>   
-<img src="/media/project-studium-planetare/screenshot3.webp"/>
+["/media/project-studium-planetare/screenshot1.webp", "/media/project-studium-planetare/screenshot2.webp", "/media/project-studium-planetare/screenshot3.webp"]
 ---
 [{"name":"Website","url":"https://studiumplanetare.de"}]

@@ -10,8 +10,7 @@ Hyper Visual Times contains a series of reflections on the circulation and consu
 ---
 [{"name":"Francesca Morini"}]
 ---
-<img src="/media/project-splee/screenshot1.webp"/>   
-<img src="/media/project-splee/screenshot2.webp"/>
+["/media/project-splee/screenshot1.webp", "/media/project-splee/screenshot2.webp"]
 ---
 [{"name":"Website","url":"https://ctechfilmuniversity.github.io/hyper-visual-times/"},
  {"name":"GitHub","url":"https://github.com/ctechfilmuniversity/hyper-visual-times"}]

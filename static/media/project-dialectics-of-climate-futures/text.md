@@ -14,8 +14,5 @@ Dialectics of Climate Futures was exhibited at the Ars Electronica Festival 2023
 ---
 [{"name":"Milli Keil"}]
 ---
-<img src="/media/project-dialectics-of-climate-futures/output.gif"/>
-<img src="/media/project-dialectics-of-climate-futures/bild1.webp"/>
-<img src="/media/project-dialectics-of-climate-futures/bild2.webp"/>
-<img src="/media/project-dialectics-of-climate-futures/bild3.webp"/>
+["/media/project-dialectics-of-climate-futures/output.gif", "/media/project-dialectics-of-climate-futures/bild1.webp", "/media/project-dialectics-of-climate-futures/bild2.webp", "/media/project-dialectics-of-climate-futures/bild3.webp"]
 ---

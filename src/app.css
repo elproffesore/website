@@ -24,9 +24,9 @@
     --color-accent: #ff6532;
     --color-card-background: #fff;
     --color-card-border: #c0c0c0;
-    --text-sm: 0.9rem;
-    --text-md: 0.95rem;
-    --text-lg: 1.05rem;
+    --text-sm: 1rem;
+    --text-md: 1.15rem;
+    --text-lg: 1.2rem;
     --text-xl: 1.30rem;
 
 }

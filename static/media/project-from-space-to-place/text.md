@@ -10,8 +10,6 @@ From Space to Place is an interdisciplinary exploration to understand the comple
 ---
 [{"name":"Lora Bourova"}]
 ---
-<img src="/media/project-from-space-to-place/fstp.gif" alt=""/>
-<img src="/media/project-from-space-to-place/screenshot1.webp">
-<img src="/media/project-from-space-to-place/screenshot2.webp">
+["/media/project-from-space-to-place/fstp.gif", "/media/project-from-space-to-place/screenshot1.webp", "/media/project-from-space-to-place/screenshot2.webp"]
 ---
 [{"name":"Website","url":"https://studio.philippproff.eu"}]
