@@ -22,8 +22,8 @@
 		computational social science, human-computer interaction and the digital humanities. In my free time I enjoy playing table
 		tennis, spikeball and reading books.
 	</p>
-	<h3 class="small-container text-black uppercase">Skills</h3>
-	<p class="big-container font-sans font-normal"><b>Frontend</b> ⭢ JavaScript, HTML, CSS, Svelte, Vue <b>Backend</b> ⭢ NodeJS (Express), Python (FastAPI) <b>Data+Vis</b> ⭢ JupyterNotebook, Observable, D3.js <b>Tools</b> ⭢ Figma, Touchdesigner, Affinity Designer/Photo </p>
+	<h3 class="small-container text-black uppercase"></h3>
+	<p class="big-container font-sans font-normal mb-16"><b>Frontend</b> ⭢ JavaScript, HTML, CSS, Svelte, Vue <b>Backend</b> ⭢ NodeJS (Express), Python (FastAPI) <b>Data+Vis</b> ⭢ JupyterNotebook, Observable, D3.js <b>Tools</b> ⭢ Figma, Touchdesigner, Affinity Designer/Photo </p>
 	{@render children()}
 </div>
 
