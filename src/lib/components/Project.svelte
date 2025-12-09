@@ -44,10 +44,11 @@
 		class:block={expanded}
 	></div>
 	<div
-		class="col-span-2 md:col-span-1 z-12 bg-background"
+		class="col-span-2 md:col-span-1 z-12 bg-background cursor-pointer"
 		class:sticky={expanded}
 		class:top-16={expanded}
 		class:h-full={expanded}
+		onclick={() => (expanded = !expanded)}
 	>
 		<h3 class="text-accent">{type}</h3>
 		<h3>{new Date(date).getFullYear()}-{months[new Date(date).getMonth()]}</h3>

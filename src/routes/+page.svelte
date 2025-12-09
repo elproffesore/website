@@ -15,7 +15,7 @@ let collapseChange = $state(false)
 		<div class="grid-8 relative">
 			<div class="col-span-8">
 				{#each projects[yearIndex].projects as project, projectIndex}
-					<Project projectName={project} {projectIndex} {collapseChange}/>
+					<Project projectName={project} {projectIndex} {collapseChange} />
 				{/each}
 			</div>
 		</div>
