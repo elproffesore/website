@@ -1,6 +1,7 @@
 <script>
 	import { LinkHandler } from '$lib/utils/linkhandler.svelte';
 	import '../app.css';
+	
 
 	let { children } = $props();
 </script>
@@ -11,10 +12,18 @@
     <meta property="og:url" content="https://philippproff.eu/">
 	<title>Portfolio | Philipp Proff</title>
 </svelte:head>
-<div class="bg-background text-text min-h-screen min-w-screen p-2 grid grid-cols-12">
-	<h1 class="col-start-1 col-span-12 md:col-start-3 md:col-span-5 mb-8">
-		<a href={LinkHandler("/")}>Projects</a> / <a href={LinkHandler("/info")}>About</a>
-	</h1>
+
+<div class="grid grid-cols-12 grid-rows-[auto_1fr] gap-4 bg-background min-h-screen w-screen mt-8 md:p-0 px-4">
+	<h3 class="small-container">Intro</h3>
+	<p class="big-container">
+		Hi! My name is Philipp – I'm a designer and creative technologist. I have an M.A. Design &
+		Computation (TU Berlin and UdK Berlin) and a B.E. in Media Technologies (Media University
+		Stuttgart). My interests include data interfaces, data visualizations, node-based interfaces,
+		computational social science and the digital humanities. In my free time I enjoy playing table
+		tennis, spikeball and reading books.
+	</p>
+	<h3 class="small-container">Skills</h3>
+	<p class="big-container"></p>
 	{@render children()}
 </div>
 

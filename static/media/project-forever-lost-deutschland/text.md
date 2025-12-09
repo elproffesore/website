@@ -1,8 +1,8 @@
 Forever Lost Deutschland
 ---
-University Project
+Project
 ---
-01/07/2024
+07/01/2024
 ---
 "Forever Lost Deutschland?" was done in the [data journalism class at FH Potsdam](https://uclab.fh-potsdam.de/mapping/). Throughout the semester a dataset from the [SOSEC](https://www.socialsentiment.org/sosec-dashboard/) workgroup at KIT and FZI was analyzed and synthesized with other datasets for establishing geographic and economic relations between the datapoints. Central to the analysis was the definition of the "perceived crisis level", which was indicated by several proxy references (such as anger, depression, money sorrows and doomsday mood). 
 ---

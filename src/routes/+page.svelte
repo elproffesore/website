@@ -1,16 +1,21 @@
 <script>
  import Project from '$lib/components/Project.svelte';
- let projects = [{year: "2025", projects: ["project-splee","project-textarium","project-studium-planetare"]},
-                 {year: "2024", projects: ["project-forever-lost-deutschland","project-generative-syllabus-site"]},
-                 {year: "2023", projects: ["project-from-space-to-place","project-dialectics-of-climate-futures"]}];</script>
+ let projects = [{year: "2025", projects: ["project-splee","project-textarium", "project-meandering-interpretations","project-studium-planetare"]},
+                 {year: "2024", projects: ["project-forever-lost-deutschland","project-from-space-to-place"]},
+                 {year: "2023", projects: ["project-generative-syllabus-site","project-dialectics-of-climate-futures"]}];
+</script>
 
-	<div class="col-start-1 col-span-12 md:col-start-3 md:col-span-8 flex flex-col md:gap-4">
-        {#each Object.keys(projects) as yearIndex}
-        <div >
-                <h1 class="text-accent sticky top-8 -mb-8 hidden md:block">{projects[yearIndex].year}</h1>
-                {#each projects[yearIndex].projects as project}
-                    <Project projectName={project} />
-                {/each}
-        </div>
-        {/each}
+<div id="content" class="container h-full relative">
+	<div class="sticky top-0 bg-background z-14 col-span-8 grid-8 items-center pt-6 pb-4">
+		<h3 class="col-span-1">Projects</h3>
 	</div>
+	{#each Object.keys(projects) as yearIndex}
+		<div class="grid-8 relative">
+			<div class="col-span-8">
+				{#each projects[yearIndex].projects as project, projectIndex}
+					<Project projectName={project} {projectIndex} />
+				{/each}
+			</div>
+		</div>
+	{/each}
+</div>

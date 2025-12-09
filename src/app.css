@@ -4,54 +4,105 @@
 @tailwind utilities;
 /* CSS */
 @font-face {
+    font-family: "IBMPlexMono";
+    src: url("fonts/IBMPlexMono-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "IBMPlexMono";
+    src: url("fonts/IBMPlexMono-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: medium;
+}
+@font-face {
+    font-family: "IBMPlexMono";
+    src: url("fonts/IBMPlexMono-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
     font-family: "Inter";
-    src: url("fonts/Inter_18pt-Medium.ttf") format("truetype");
+    src: url("fonts/Inter-Medium.ttf") format("truetype");
     font-style: normal;
     font-weight: medium;
 }
 
 @font-face {
     font-family: "Inter";
-    src: url("fonts/Inter_18pt-Bold.ttf") format("woff2-variations");
+    src: url("fonts/Inter-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("fonts/Inter-Bold.ttf") format("woff2-variations");
     font-style: normal;
     font-weight: bold;
 }
 @theme {
     --font-sans: "Inter", sans-serif;
+    --font-serif: "IBMPlexMono", sans-serif;
+    --color-cobalt-50: oklch(97.05% .0054 274.97);
+    --color-cobalt-100: oklch(94.22% .0275 274.66);
+    --color-cobalt-200: oklch(83.76% .0774 273.32);
+    --color-cobalt-300: oklch(76.12% .1218 272.4);
+    --color-cobalt-400: oklch(63.79% .1899 269.89);
+    --color-cobalt-600: oklch(50.58% .2886 264.84);
+    --color-background: #fbfbfb;
     --color-black: #1b191c;
+    --color-accent: var(--color-cobalt-600);
     --color-gray: #666666;
-    --color-background: #f8f8f8;
-    --color-accent: #ff6532;
     --color-card-background: #fff;
     --color-card-border: #c0c0c0;
-    --text-sm: 1rem;
-    --text-md: 1.15rem;
-    --text-lg: 1.2rem;
-    --text-xl: 1.30rem;
+    --text-sm: 0.95rem;
+    --text-md: 1.0rem;
+    --text-lg: 1.25rem;
     --text-sm-mobile: 0.95rem;
     --text-md-mobile: 1rem;
-    --text-lg-mobile: 1.05rem;
-    --text-xl-mobile: 1.15rem;
+    --text-lg-mobile: 1.15rem;
 
 }
 @layer base{
     html,
     body {
-        @apply overscroll-y-none scroll-smooth m-0 font-sans;
+        @apply overscroll-y-none scroll-smooth m-0 bg-background text-black;
     }
     h1{
-        @apply text-xl-mobile md:text-xl font-bold text-black;
+        @apply text-left text-lg-mobile md:text-lg font-bold text-black font-serif;
     }
     h2{
-        @apply text-lg-mobile md:text-lg font-bold text-accent;
+        @apply text-left text-md-mobile md:text-md text-accent font-serif;
     }
     h3{
-        @apply text-sm-mobile md:text-sm font-bold text-gray;
+        @apply text-left text-sm-mobile md:text-sm text-gray font-serif;
     }
     p{
-        @apply text-sm-mobile md:text-sm text-black;
+        @apply text-left text-sm-mobile md:text-sm text-black;
     }
     a {
-        @apply text-black underline;
+        @apply text-left text-black underline;
+    }
+    .btn {
+        @apply text-black px-2 py-px border border-black bg-card-background cursor-pointer hover:border-dotted transition-all duration-200;
+    }
+    .flex-c-4 {
+        @apply flex flex-col gap-4;
+    }
+    .flex-r-4 {
+        @apply flex flex-row gap-4;
+    }
+    .grid-8{
+        @apply grid grid-cols-8 md:gap-4;
+    }
+    .container {
+        @apply col-start-1 col-span-12 md:col-start-3 md:col-span-8;
+    }
+    .small-container {
+        @apply col-start-1 col-span-12 md:col-start-3 md:col-span-1;
+    }
+    .big-container {
+        @apply col-start-1 col-span-12 md:col-start-4 md:col-span-6;
     }
 }

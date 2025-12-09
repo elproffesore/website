@@ -1,8 +1,8 @@
 Dialectics of Climate Futures
 ---
-University Project
+Project
 ---
-01/02/2023
+02/01/2023
 ---
 Anthropogenic climate change is more relevant than ever. Despite the scientific evidence that has been gathered and substantiated in recent decades, social fronts are sharpening and polarizing. Thus, we find that the discussion about the climate crisis must not only be approached from the quantitative side, but also from the qualitative, emotional side. 
 
