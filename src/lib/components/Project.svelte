@@ -43,16 +43,22 @@
 		class:-mt-16={expanded}
 		class:block={expanded}
 	></div>
-	<div class="col-span-2 md:col-span-1 z-12 sticky top-16 bg-background" class:h-full={expanded}>
+	<div
+		class="col-span-2 md:col-span-1 z-12 bg-background"
+		class:sticky={expanded}
+		class:top-16={expanded}
+		class:h-full={expanded}
+	>
 		<h3 class="text-accent">{type}</h3>
-		<h3 >{new Date(date).getFullYear()}-{months[new Date(date).getMonth()]}</h3>
-		<div  class="w-1/6 h-1/2 border-r border-dotted mt-2" class:hidden={expanded}></div>
+		<h3>{new Date(date).getFullYear()}-{months[new Date(date).getMonth()]}</h3>
+		<div class="w-1/6 h-1/2 border-r border-dotted mt-2" class:hidden={expanded}></div>
 	</div>
 	<button
-		
 		onclick={() => (expanded = !expanded)}
-		class="collapse-button col-span-6 md:col-span-7 grid-8 cursor-pointer z-12 sticky top-16"
+		class="collapse-button col-span-6 md:col-span-7 grid-8 cursor-pointer z-12"
 		class:pb-4={expanded}
+		class:sticky={expanded}
+		class:top-16={expanded}
 		class:border-b={expanded}
 		class:border-dotted={expanded}
 		class:bg-background={expanded}
@@ -63,15 +69,16 @@
 				{#each demo as link}
 					<a
 						href={LinkHandler(link.url)}
-						class="text-black font-serif no-underline w-max border px-2 py-px hover:border-dotted transition flex gap-1 items-center"
+						class="no-underline w-max border px-2 py-px hover:border-dotted transition"
 						target="_blank"
-						rel="noopener noreferrer"><img class="h-3" src={LinkHandler("/icons/link.svg")} alt="link icon"> {link.name} </a
-					>
+						rel="noopener noreferrer"
+						> <h3 class="flex gap-1 items-center"><img class="h-3" src={LinkHandler('/icons/link.svg')} alt="link icon" /> {link.name}</h3>
+					</a>
 				{/each}
 			</div>
 		</div>
 		<div
-			class="col-span-1 row-span-1 w-3 h-3 border bg-background transition-all mt-2"
+			class="col-span-1 row-span-1 w-3 h-3 justify-self-end border bg-background transition-all mt-2"
 			class:rotate-45={expanded}
 			class:bg-black={expanded}
 		></div>
