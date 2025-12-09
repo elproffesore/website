@@ -16,3 +16,4 @@ Dialectics of Climate Futures was exhibited at the Ars Electronica Festival 2023
 ---
 ["/media/project-dialectics-of-climate-futures/output.gif", "/media/project-dialectics-of-climate-futures/bild1.webp", "/media/project-dialectics-of-climate-futures/bild2.webp", "/media/project-dialectics-of-climate-futures/bild3.webp"]
 ---
+[]

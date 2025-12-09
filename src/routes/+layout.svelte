@@ -23,7 +23,8 @@
 		tennis, spikeball and reading books.
 	</p>
 	<h3 class="small-container text-black uppercase"></h3>
-	<p class="big-container font-sans font-normal mb-16"><b>Frontend</b> ⭢ JavaScript, HTML, CSS, Svelte, Vue <b>Backend</b> ⭢ NodeJS (Express), Python (FastAPI) <b>Data+Vis</b> ⭢ JupyterNotebook, Observable, D3.js <b>Tools</b> ⭢ Figma, Touchdesigner, Affinity Designer/Photo </p>
+	<p class="big-container font-sans font-normal mb-8"><b>Frontend</b> ⭢ JavaScript, HTML, CSS, Svelte, Vue <b>Backend</b> ⭢ NodeJS (Express), Python (FastAPI) <b>Data+Vis</b> ⭢ JupyterNotebook, Observable, D3.js <b>Tools</b> ⭢ Figma, Touchdesigner, Affinity Designer/Photo </p>
+	<hr class="col-span-12 md:col-start-3 md:col-span-8">
 	{@render children()}
 </div>
 

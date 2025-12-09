@@ -2,8 +2,8 @@
 	import { onMount } from "svelte";
     import { marked } from 'marked';
 	import { LinkHandler } from "$lib/utils/linkhandler.svelte";
-    let {projectName,projectIndex,collapseChange}  = $props();
-
+    let {projectName,projectIndex,collapseChange, isLast}  = $props();
+	$inspect(isLast)
     let project = $state("")
     let type = $state("")
     let date = $state("")
@@ -32,7 +32,7 @@
         technologies = JSON.parse(parts[4]) ?? [];
         collaborators = JSON.parse(parts[5])?? [];
         documentation = JSON.parse(parts[6]) ?? [];
-        demo = JSON.parse(parts[7])?? [];
+        demo = JSON.parse(parts[7]) ?? [];
     })
 </script>
 
@@ -44,15 +44,17 @@
 		class:block={expanded}
 	></div>
 	<div
-		class="col-span-2 md:col-span-1 z-12 bg-background cursor-pointer"
+		class="col-span-2 md:col-span-1 z-12 bg-background cursor-pointer md:border-b-0 "
 		class:sticky={expanded}
 		class:top-16={expanded}
 		class:h-full={expanded}
+		class:border-b={expanded}
+		class:border-dotted={expanded}
 		onclick={() => (expanded = !expanded)}
 	>
 		<h3 class="text-accent">{type}</h3>
-		<h3>{new Date(date).getFullYear()}-{months[new Date(date).getMonth()]}</h3>
-		<div class="w-1/6 h-1/2 border-r border-dotted mt-2" class:hidden={expanded}></div>
+		<h3>{new Date(date).getFullYear()} {months[new Date(date).getMonth()]}</h3>
+		<div class="w-1/6 h-1/2 border-r border-dotted mt-px md:mt-2" class:hidden={expanded||isLast}></div>
 	</div>
 	<button
 		onclick={() => (expanded = !expanded)}
