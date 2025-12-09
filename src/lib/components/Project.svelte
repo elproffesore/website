@@ -2,7 +2,7 @@
 	import { onMount } from "svelte";
     import { marked } from 'marked';
 	import { LinkHandler } from "$lib/utils/linkhandler.svelte";
-    let {projectName,projectIndex}  = $props();
+    let {projectName,projectIndex,collapseChange}  = $props();
 
     let project = $state("")
     let type = $state("")
@@ -12,9 +12,15 @@
     let collaborators = $state("")
     let documentation = $state("")
     let demo = $state("")
-    let expanded = $state(false)
+    let expanded = $state(true)
 	let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-
+	$effect(() => {
+		if (collapseChange) {
+			expanded = false;
+		}else{
+			expanded = true;
+		}
+	});
     onMount(async () => {
         let response = await fetch(LinkHandler(`/media/${projectName}/text.md`))
         let content = await response.text();
@@ -37,14 +43,15 @@
 		class:-mt-16={expanded}
 		class:block={expanded}
 	></div>
-	<div class="col-span-2 md:col-span-1 z-12 sticky top-14 bg-background" class:h-full={expanded}>
+	<div class="col-span-2 md:col-span-1 z-12 sticky top-16 bg-background" class:h-full={expanded}>
 		<h3 class="text-accent">{type}</h3>
 		<h3 >{new Date(date).getFullYear()}-{months[new Date(date).getMonth()]}</h3>
 		<div  class="w-1/6 h-1/2 border-r border-dotted mt-2" class:hidden={expanded}></div>
 	</div>
 	<button
+		
 		onclick={() => (expanded = !expanded)}
-		class="col-span-6 md:col-span-7 grid-8 cursor-pointer z-12 sticky top-14"
+		class="collapse-button col-span-6 md:col-span-7 grid-8 cursor-pointer z-12 sticky top-16"
 		class:pb-4={expanded}
 		class:border-b={expanded}
 		class:border-dotted={expanded}

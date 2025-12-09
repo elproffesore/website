@@ -10,7 +10,7 @@
 	<meta property="og:title" content="Philipp Proff">
     <meta property="og:description" content="This website is the contemporary representation of my works, thoughts and creativity.">
     <meta property="og:url" content="https://philippproff.eu/">
-	<title>Portfolio | Philipp Proff</title>
+	<title>Thinking ...</title>
 </svelte:head>
 
 <div class="grid grid-cols-12 grid-rows-[auto_1fr] gap-4 bg-background min-h-screen w-screen mt-8 md:p-0 px-4">
