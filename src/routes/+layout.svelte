@@ -14,7 +14,7 @@
 </svelte:head>
 
 <div class="grid grid-cols-12 grid-rows-[auto_1fr] gap-4 bg-background min-h-screen w-screen mt-8 md:p-0 px-4">
-	<h3 class="small-container">Intro</h3>
+	<h3 class="small-container text-black uppercase">Intro</h3>
 	<p class="big-container">
 		Hi! My name is Philipp – I'm a designer and creative technologist. I have an M.A. Design &
 		Computation (TU Berlin and UdK Berlin) and a B.E. in Media Technologies (Media University
@@ -22,7 +22,7 @@
 		computational social science, human-computer interaction and the digital humanities. In my free time I enjoy playing table
 		tennis, spikeball and reading books.
 	</p>
-	<h3 class="small-container">Skills</h3>
+	<h3 class="small-container text-black uppercase">Skills</h3>
 	<p class="big-container font-sans font-normal">Frontend ⭢ JavaScript, HTML, CSS, Svelte, Vue <br> Backend ⭢ NodeJS (Express), Python (FastAPI) <br> Data+Vis ⭢ JupyterNotebook, Observable, D3.js <br> Tools ⭢ Figma, Touchdesigner, Affinity Designer/Photo </p>
 	{@render children()}
 </div>

@@ -8,8 +8,8 @@ let collapseChange = $state(false)
 
 <div id="content" class="container h-full relative">
 	<div class="sticky top-0 bg-background z-14 col-span-8 grid-8 items-center pt-6 pb-4">
-		<h3 class="col-span-2 md:col-span-1">Projects</h3>
-		<button class="col-start-8 justify-self-end w-max btn text-sm" onclick={() => {collapseChange = !collapseChange}}>{collapseChange ? "Expand" : "Collapse"} All</button>
+		<h3 class="col-span-2 md:col-span-1 text-black uppercase">Projects</h3>
+		<button class="col-start-8 justify-self-end w-max btn text-sm font-serif" onclick={() => {collapseChange = !collapseChange}}>{collapseChange ? "Expand" : "Collapse"} All</button>
 	</div>
 	{#each Object.keys(projects) as yearIndex}
 		<div class="grid-8 relative">
