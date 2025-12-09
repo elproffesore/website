@@ -5,32 +5,32 @@
 /* CSS */
 @font-face {
     font-family: "IBMPlexMono";
-    src: url("fonts/IBMPlexMono-Regular.ttf") format("truetype");
+    src: url("/fonts/IBMPlexMono-Regular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family: "IBMPlexMono";
-    src: url("fonts/IBMPlexMono-Medium.ttf") format("truetype");
+    src: url("/fonts/IBMPlexMono-Medium.ttf") format("truetype");
     font-style: normal;
     font-weight: medium;
 }
 @font-face {
     font-family: "IBMPlexMono";
-    src: url("fonts/IBMPlexMono-Bold.ttf") format("truetype");
+    src: url("/fonts/IBMPlexMono-Bold.ttf") format("truetype");
     font-style: normal;
     font-weight: bold;
 }
 @font-face {
     font-family: "Inter";
-    src: url("fonts/Inter-Medium.ttf") format("truetype");
+    src: url("/fonts/Inter-Medium.ttf") format("truetype");
     font-style: normal;
     font-weight: medium;
 }
 
 @font-face {
     font-family: "Inter";
-    src: url("fonts/Inter-Regular.ttf") format("truetype");
+    src: url("/fonts/Inter-Regular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
@@ -70,7 +70,7 @@
         @apply overscroll-y-none scroll-smooth m-0 bg-background text-black;
     }
     h1{
-        @apply text-left text-lg-mobile md:text-lg font-bold text-black font-serif;
+        @apply text-left text-lg-mobile md:text-lg font-bold text-black font-sans;
     }
     h2{
         @apply text-left text-md-mobile md:text-md text-accent font-serif;
