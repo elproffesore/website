@@ -23,7 +23,7 @@
 		tennis, spikeball and reading books.
 	</p>
 	<h3 class="small-container text-black uppercase">Skills</h3>
-	<p class="big-container font-sans font-normal">Frontend ⭢ JavaScript, HTML, CSS, Svelte, Vue <br> Backend ⭢ NodeJS (Express), Python (FastAPI) <br> Data+Vis ⭢ JupyterNotebook, Observable, D3.js <br> Tools ⭢ Figma, Touchdesigner, Affinity Designer/Photo </p>
+	<p class="big-container font-sans font-normal"><b>Frontend</b> ⭢ JavaScript, HTML, CSS, Svelte, Vue <b>Backend</b> ⭢ NodeJS (Express), Python (FastAPI) <b>Data+Vis</b> ⭢ JupyterNotebook, Observable, D3.js <b>Tools</b> ⭢ Figma, Touchdesigner, Affinity Designer/Photo </p>
 	{@render children()}
 </div>
 
