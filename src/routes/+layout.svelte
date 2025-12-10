@@ -66,7 +66,7 @@
 			</h3>
 		</a>
 	</div>
-
+	<h3 class="small-container text-black uppercase">Skills</h3>
 	<p class="big-container font-sans font-normal mb-4 grid grid-cols-[75px_15px_auto] gap-2">
 		<span><b>Frontend</b></span>
 		<span>⭢</span>

@@ -3,7 +3,6 @@
     import { marked } from 'marked';
 	import { LinkHandler } from "$lib/utils/linkhandler.svelte";
     let {projectName,projectIndex,collapseChange, isLast}  = $props();
-	$inspect(isLast)
     let project = $state("")
     let type = $state("")
     let date = $state("")
