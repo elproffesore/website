@@ -1,23 +1,18 @@
 <script>
 	import { LinkHandler } from '$lib/utils/linkhandler.svelte';
+	import {MetaTags} from 'svelte-meta-tags';
 	import '../app.css';
 	
 
 	let { children } = $props();
 </script>
 
-<svelte:head>
-	<meta property="og:title" content="Philipp Proff">
-    <meta property="og:description" content="This website is the contemporary representation of my works, thoughts and creativity.">
-    <meta property="og:url" content="https://philippproff.eu/">
-	<title>Portfolio</title>
-</svelte:head>
 <MetaTags
-	title="Portfolio - Philipp Proff"
+	title="Portfolio of Philipp Proff"
 	titleTemplate=""
 	description="This website is the contemporary representation of my works, thoughts and creativity."
 	openGraph={{
-		title: 'Portfolio - Philipp Proff',
+		title: 'Portfolio of Philipp Proff',
 		images: [
 			{
 				url: 'https://philippproff.eu/media/og-preview.webp',
